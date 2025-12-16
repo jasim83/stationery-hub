@@ -12,7 +12,7 @@ export function Footer() {
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
                 <Pen className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="font-display text-xl font-bold">OfficeHub</span>
+              <span className="font-display text-xl font-bold">ALBAITH</span>
             </Link>
             <p className="text-sm text-secondary-foreground/70">
               Your one-stop shop for premium stationery and office supplies.

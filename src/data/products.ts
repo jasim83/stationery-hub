@@ -438,7 +438,7 @@ export const products: Product[] = [
     description: "Complete mop and bucket sets for efficient cleaning",
     price: 24.99,
     category: "Cleaning & Household Items",
-    image:"/images/Bucket MOP.jpg",
+    image:"/images/bucket.jpg",
   },
   {
     id: "51",

@@ -26,6 +26,7 @@ export const products: Product[] = [
     id: "1",
     name: "Room Spray",
     description: "Premium air freshener spray for a pleasant office environment",
+    price: 12.99,
     category: "Room Essentials",
     image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400&h=400&fit=crop",
     featured: true,

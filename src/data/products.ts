@@ -412,7 +412,7 @@ export const products: Product[] = [
     description: "High-visibility windsocks for airports and heliports",
     price: 89.99,
     category: "Stamps & Sign Boards",
-    image: "/images/airport-windsock.gif",
+    image: "/images/windsock.jpeg",
   },
 
   // Category 7: Cleaning & Household Items

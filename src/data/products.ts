@@ -155,7 +155,7 @@ export const products: Product[] = [
     description: "Professional binding machines for document presentation",
     price: 199.99,
     category: "Printer & Office Supplies",
-    image: "/images/binding-machine.jpg",
+    image: "/images/bindingmac.jpg",
     featured: true,
   },
   {

@@ -72,7 +72,7 @@ export const products: Product[] = [
     description: "High-quality IK brand A4 paper for everyday office use",
     price: 18.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=400&h=400&fit=crop",
+    image:"/images/ikpapera4.jpg",
   },
   {
     id: "7",
@@ -80,7 +80,7 @@ export const products: Product[] = [
     description: "Premium King brand A4 paper with excellent print quality",
     price: 19.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=400&fit=crop",
+    image:"/images/kingcopya4.jpg",
   },
   {
     id: "8",

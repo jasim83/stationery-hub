@@ -504,7 +504,7 @@ export const products: Product[] = [
     description: "High-powered LED torch lights for safety applications",
     price: 24.99,
     category: "Safety Products",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image:"/images/fl.jpg",
   },
   {
     id: "59",

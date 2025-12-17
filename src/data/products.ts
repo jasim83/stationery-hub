@@ -446,7 +446,7 @@ export const products: Product[] = [
     description: "Effective dish washing liquid for spotless dishes",
     price: 5.99,
     category: "Cleaning & Household Items",
-    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
+    image:"/images/dishwash.jpg",
   },
   {
     id: "52",
@@ -454,7 +454,7 @@ export const products: Product[] = [
     description: "Multi-surface floor cleaning liquid",
     price: 8.99,
     category: "Cleaning & Household Items",
-    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
+    image:"/images/floorliq.jpg",
   },
   {
     id: "53",
@@ -462,7 +462,7 @@ export const products: Product[] = [
     description: "Streak-free glass and window cleaning solution",
     price: 6.99,
     category: "Cleaning & Household Items",
-    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
+    image: "/images/glass.jpg",
   },
   {
     id: "54",

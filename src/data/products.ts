@@ -470,7 +470,7 @@ export const products: Product[] = [
     description: "Antibacterial hand wash liquid for hygiene",
     price: 4.99,
     category: "Cleaning & Household Items",
-    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
+    image: "/images/handwash.jpg",
   },
   {
     id: "55",
@@ -478,7 +478,7 @@ export const products: Product[] = [
     description: "Heavy-duty large dustbins for office and industrial use",
     price: 49.99,
     category: "Cleaning & Household Items",
-    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
+    image:"/images/dustbin.jpg",
   },
   {
     id: "56",
@@ -486,7 +486,7 @@ export const products: Product[] = [
     description: "Soft toilet tissue and paper rolls",
     price: 12.99,
     category: "Cleaning & Household Items",
-    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
+    image:"/images/toiletpaper.jpg" ,
   },
 
   // Category 8: Safety Products

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Phone, MapPin, Clock, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, Send, MessageCircle } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -37,25 +37,31 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: Phone,
-      title: "Phone",
-      content: "(123) 456-7890",
-      href: "tel:+1234567890",
+      title: "Phone / Fax",
+      content: "Tel: +673 2663321 | Fax: +673 2662211",
+      href: "tel:+6732663321",
+    },
+    {
+      icon: MessageCircle,
+      title: "WhatsApp",
+      content: "+673 2663321 / +673 872201",
+      href: "https://wa.me/673872201",
     },
     {
       icon: Mail,
       title: "Email",
-      content: "info@officehub.com",
-      href: "mailto:info@officehub.com",
+      content: "albaithbrunei@gmail.com",
+      href: "mailto:albaithbrunei@gmail.com",
     },
     {
       icon: MapPin,
       title: "Address",
-      content: "123 Office Street, Business City, BC 12345",
+      content: "Simpang 1512, BG1121, Brunei",
     },
     {
       icon: Clock,
       title: "Business Hours",
-      content: "Mon - Fri: 9AM - 6PM",
+      content: "Sat - Thu: 8AM - 5PM",
     },
   ];
 
@@ -71,7 +77,7 @@ const Contact = () => {
               Contact Us
             </h1>
             <p className="text-white/80 max-w-lg">
-              Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+              Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible. Serving Brunei since 1992.
             </p>
           </div>
         </section>
@@ -118,7 +124,7 @@ const Contact = () => {
                     <Input
                       id="phone"
                       type="tel"
-                      placeholder="(123) 456-7890"
+                      placeholder="+673 XXXXXXX"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     />
@@ -160,12 +166,14 @@ const Contact = () => {
                         {info.href ? (
                           <a
                             href={info.href}
-                            className="text-muted-foreground hover:text-primary transition-colors"
+                            target={info.href.startsWith("http") ? "_blank" : undefined}
+                            rel={info.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                            className="text-muted-foreground hover:text-primary transition-colors text-sm"
                           >
                             {info.content}
                           </a>
                         ) : (
-                          <p className="text-muted-foreground">{info.content}</p>
+                          <p className="text-muted-foreground text-sm">{info.content}</p>
                         )}
                       </div>
                     </div>
@@ -175,15 +183,27 @@ const Contact = () => {
                 {/* Map */}
                 <div className="rounded-lg overflow-hidden border border-border h-[300px] lg:h-[400px]">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30591910525!2d-74.25986432970718!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1647043087964!5m2!1sen!2s"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.6!2d114.9!3d4.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwNTQnMDAuMCJOIDExNMKwNTQnMDAuMCJF!5e0!3m2!1sen!2sbn!4v1647043087964"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Office Location"
+                    title="ALBAITH Location - Brunei"
                   />
+                </div>
+
+                {/* WhatsApp CTA */}
+                <div className="bg-primary/10 rounded-lg p-6 text-center">
+                  <h3 className="font-display font-semibold mb-2">Quick Contact via WhatsApp</h3>
+                  <p className="text-muted-foreground text-sm mb-4">Get instant responses on WhatsApp</p>
+                  <Button asChild>
+                    <a href="https://wa.me/673872201" target="_blank" rel="noopener noreferrer">
+                      <MessageCircle className="mr-2 h-4 w-4" />
+                      Chat on WhatsApp
+                    </a>
+                  </Button>
                 </div>
               </div>
             </div>

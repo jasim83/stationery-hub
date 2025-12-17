@@ -26,7 +26,7 @@ const Shop = () => {
               Our Products
             </h1>
             <p className="text-white/80 max-w-lg">
-              Explore our curated collection of premium stationery and office supplies.
+              Browse our 8 product categories - from office supplies and safety equipment to industrial products. Quality products since 1992.
             </p>
           </div>
         </section>

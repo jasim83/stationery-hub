@@ -430,7 +430,7 @@ export const products: Product[] = [
     description: "Durable broom sticks for floor cleaning",
     price: 9.99,
     category: "Cleaning & Household Items",
-    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
+    image:"/images/Brooms.jpg",
   },
   {
     id: "50",

@@ -9,146 +9,233 @@ export interface BlogPost {
   image: string;
 }
 
-export const blogCategories = ["All", "Productivity", "Organization", "Reviews", "Tips & Tricks"];
+export const blogCategories = ["All", "Company News", "Products", "Industry", "Tips & Guides"];
 
 export const blogPosts: BlogPost[] = [
   {
     id: "1",
-    title: "10 Ways to Organize Your Workspace for Maximum Productivity",
-    excerpt: "Transform your desk into a productivity powerhouse with these simple organization tips.",
-    content: `A well-organized workspace can dramatically improve your focus and efficiency. Here are our top 10 tips for creating the perfect productive environment.
+    title: "ALBAITH: Serving Quality Products Since 1992",
+    excerpt: "For over 30 years, ALBAITH has been Brunei's trusted supplier of office supplies, safety equipment, and industrial products.",
+    content: `Since 1992, ALBAITH has been at the forefront of providing quality office supplies, safety equipment, and industrial products to businesses and individuals across Brunei.
 
-1. **Clear the Clutter** - Start by removing everything that doesn't serve a purpose.
+**Our Journey**
+What started as a small stationery shop has grown into one of Brunei's most comprehensive suppliers of office and industrial products. Our commitment to quality and customer satisfaction has been the cornerstone of our success for over three decades.
 
-2. **Zone Your Desk** - Create specific areas for different tasks.
+**Our Mission**
+We believe that every workplace deserves access to high-quality supplies that enhance productivity and safety. That's why we carefully curate our product selection to ensure only the best reaches our customers.
 
-3. **Use Vertical Space** - Shelves and wall organizers free up desk real estate.
+**Quality Assurance**
+Every product in our inventory undergoes rigorous quality checks. We partner with trusted manufacturers and brands worldwide to bring you products that meet international standards.
 
-4. **Invest in Quality Storage** - Good containers and organizers last longer and work better.
+**Customer First**
+Our dedicated team is always ready to assist you in finding the right products for your needs. Whether you're outfitting a new office or restocking supplies, we're here to help.
 
-5. **Keep Essentials Within Reach** - Your most-used items should be closest to you.
-
-6. **Cable Management** - Tidy cables reduce visual noise and prevent tangles.
-
-7. **Add Plants** - Greenery improves air quality and mood.
-
-8. **Proper Lighting** - Good lighting reduces eye strain and fatigue.
-
-9. **Regular Maintenance** - Schedule weekly cleanup sessions.
-
-10. **Personalize Thoughtfully** - Add items that inspire without creating clutter.`,
-    author: "Sarah Mitchell",
+Thank you for trusting ALBAITH for over 30 years. We look forward to serving you for many more years to come.`,
+    author: "ALBAITH Team",
     date: "2024-01-15",
-    category: "Organization",
-    image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=800&h=400&fit=crop",
+    category: "Company News",
+    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=400&fit=crop",
   },
   {
     id: "2",
-    title: "The Ultimate Guide to Choosing the Right Notebook",
-    excerpt: "From paper quality to binding styles, everything you need to know about selecting your perfect notebook.",
-    content: `Finding the right notebook is more important than most people realize. The perfect notebook can enhance your writing experience and even improve your productivity.
+    title: "Complete Guide to Choosing the Right Printer Supplies",
+    excerpt: "From toner cartridges to drum kits, learn how to select the best printer supplies for your office needs.",
+    content: `Choosing the right printer supplies can significantly impact your printing quality and costs. Here's our comprehensive guide to help you make informed decisions.
 
-**Paper Quality**
-The weight and texture of paper affects how ink absorbs and whether it bleeds through. Look for at least 80gsm paper for everyday use.
+**Understanding Toner vs Ink Cartridges**
+- **Toner Cartridges**: Best for high-volume printing, laser printers. Longer shelf life and sharper text quality.
+- **Ink Cartridges**: Ideal for photo printing and smaller volumes. Better color reproduction for images.
 
-**Binding Types**
-- Spiral: Easy to fold back, great for left-handed writers
-- Perfect bound: Clean aesthetic, lies flat when open
-- Stapled: Lightweight and affordable
-- Ring binder: Add and remove pages easily
+**Original vs Compatible Cartridges**
+Original cartridges from manufacturers guarantee quality but come at a premium price. At ALBAITH, we offer both original and high-quality compatible options to suit different budgets.
 
-**Size Matters**
-Consider where and how you'll use your notebook. A5 is versatile, while pocket-sized notebooks are great for on-the-go notes.
+**Drum Kits and Imaging Units**
+These components are essential for laser printers. They need replacement less frequently than toner but are crucial for maintaining print quality. Signs you need replacement:
+- Faded prints
+- Lines or streaks on pages
+- Ghosting or repeated images
 
-**Line Styles**
-- Ruled: Classic choice for writing
-- Dotted: Flexible for both writing and drawing
-- Grid: Perfect for diagrams and technical notes
-- Blank: Ultimate freedom for creativity`,
-    author: "David Chen",
+**Choosing the Right Paper**
+Different projects require different paper:
+- **Standard A4**: Everyday documents
+- **Premium Paper (Conqueror, Double A)**: Important documents, presentations
+- **Specialty Paper**: Thermal, plotter, tracing paper for specific applications
+
+**Tips for Cost Savings**
+1. Buy in bulk for frequently used supplies
+2. Consider compatible cartridges for non-critical printing
+3. Use draft mode for internal documents
+4. Regular printer maintenance extends supply life
+
+Visit ALBAITH for expert advice on printer supplies tailored to your needs.`,
+    author: "ALBAITH Technical Team",
     date: "2024-01-10",
-    category: "Reviews",
-    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&h=400&fit=crop",
+    category: "Tips & Guides",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=800&h=400&fit=crop",
   },
   {
     id: "3",
-    title: "5 Journaling Techniques to Boost Your Creativity",
-    excerpt: "Unlock your creative potential with these proven journaling methods.",
-    content: `Journaling isn't just for recording daily events—it's a powerful tool for unlocking creativity and generating new ideas.
+    title: "Workplace Safety: Essential Equipment Every Business Needs",
+    excerpt: "Protect your workforce with the right safety equipment. Learn about must-have safety products for your workplace.",
+    content: `Workplace safety is not just a legal requirement—it's a moral obligation. Here's a comprehensive guide to essential safety equipment every business should have.
 
-**Morning Pages**
-Write three pages of stream-of-consciousness writing first thing in the morning. Don't edit, don't think—just write.
+**Personal Protective Equipment (PPE)**
 
-**Mind Mapping**
-Start with a central idea and branch out with related concepts. This visual technique helps you see connections you might miss.
+**Safety Helmets**
+Essential for construction sites, warehouses, and industrial settings. Our safety helmets meet international safety standards and come in various colors for team identification.
 
-**Prompted Writing**
-Use creative prompts to push your thinking in new directions. "What if..." questions are particularly powerful.
+**Safety Gloves**
+Different tasks require different gloves:
+- Cut-resistant for handling sharp objects
+- Chemical-resistant for laboratory work
+- Heat-resistant for hot environments
+- General purpose for everyday tasks
 
-**Gratitude Journaling**
-Daily gratitude practice shifts your mindset and opens you to new possibilities and positive thinking.
+**Safety Shoes**
+Steel-toe boots protect against falling objects and punctures. Look for:
+- Slip-resistant soles
+- Electrical hazard protection
+- Comfortable fit for all-day wear
 
-**Visual Journaling**
-Combine sketches, doodles, and collages with your writing for a more expressive and engaging practice.`,
-    author: "Emma Watson",
+**Traffic and Site Safety**
+
+**Traffic Cones**
+High-visibility cones are essential for:
+- Road work zones
+- Parking lots
+- Event management
+- Emergency situations
+
+**Baton Signal Lights**
+LED batons are crucial for:
+- Traffic control
+- Emergency response
+- Night-time operations
+- Airport ground operations
+
+**Emergency Equipment**
+
+**Safety LED Torch Lights**
+Reliable lighting is critical during:
+- Power outages
+- Emergency evacuations
+- Night inspections
+- Search operations
+
+ALBAITH stocks a complete range of safety products to keep your workplace compliant and your workers protected.`,
+    author: "Safety Division",
     date: "2024-01-05",
-    category: "Tips & Tricks",
-    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?w=800&h=400&fit=crop",
+    category: "Industry",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=400&fit=crop",
   },
   {
     id: "4",
-    title: "Why Quality Pens Make a Difference",
-    excerpt: "Discover how investing in good writing instruments can transform your writing experience.",
-    content: `There's a world of difference between a cheap ballpoint and a quality writing instrument. Here's why it matters.
+    title: "Organizing Your Office: Essential Supplies Checklist",
+    excerpt: "Create an efficient and productive workspace with our comprehensive office supplies checklist.",
+    content: `A well-organized office boosts productivity and morale. Here's our checklist of essential supplies every office needs.
 
-**Comfort**
-Quality pens are designed with ergonomics in mind. Balanced weight and proper grip reduce hand fatigue during long writing sessions.
+**Paper Products**
+- A4 paper (standard and premium brands like Double A, Paper One)
+- A3 paper for larger documents
+- Colored paper for creative projects
+- Graph paper for technical work
+- Tracing paper for design
 
-**Ink Flow**
-Premium pens deliver consistent, smooth ink flow without skipping or blobbing. This makes writing more enjoyable and professional-looking.
+**Printing Supplies**
+- Toner/ink cartridges (keep backup stock)
+- Thermal paper for receipt printers
+- Plotter rolls for large format printing
+- CD-R/CD-RW for data backup
 
-**Durability**
-A good pen can last for years, making it more economical than constantly replacing cheap alternatives.
+**Office Equipment**
+- Binding machines for professional documents
+- Scanners for digitizing documents
+- External hard drives for backup
+- USB pen drives for file transfer
 
-**Writing Pleasure**
-The tactile experience of a quality pen makes writing more enjoyable, which can encourage you to write more often.
+**Cleaning Supplies**
+- Floor cleaning solutions
+- Glass cleaners
+- Disinfectants
+- Toilet supplies
+- Dustbins
 
-**Professional Image**
-In business settings, pulling out a quality pen makes a subtle but positive impression.`,
-    author: "Michael Brown",
+**Stamps & Signage**
+- Date stamps for documents
+- Self-inking stamps for efficiency
+- Name plates for doors
+- Directional signs
+
+**Pro Tips**
+1. Maintain an inventory system
+2. Reorder before running out
+3. Buy in bulk for savings
+4. Choose quality over price for frequently used items
+
+ALBAITH can help you set up your office with everything you need. Contact us for bulk orders and special pricing.`,
+    author: "Office Solutions Team",
     date: "2023-12-28",
-    category: "Reviews",
-    image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=400&fit=crop",
+    category: "Tips & Guides",
+    image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=800&h=400&fit=crop",
   },
   {
     id: "5",
-    title: "Creating the Perfect Home Office Setup",
-    excerpt: "Essential supplies and organization tips for your work-from-home space.",
-    content: `Working from home requires a thoughtfully designed space. Here's how to create a home office that maximizes productivity.
+    title: "Industrial Solutions: From Water Hoses to Heavy Equipment",
+    excerpt: "Discover ALBAITH's range of industrial products designed for durability and performance.",
+    content: `ALBAITH isn't just about office supplies—we also cater to industrial needs with a comprehensive range of products.
 
-**Essential Supplies**
-- Quality desk and ergonomic chair
-- Good lighting (natural + task lighting)
-- Storage solutions for documents and supplies
-- Technology setup (computer, monitor, keyboard)
+**Industrial Equipment**
 
-**Organization Systems**
-- Filing system for important documents
-- Inbox/outbox trays for active projects
-- Desk organizers for daily essentials
-- Digital organization to match physical setup
+**Aluminium Ladders**
+Our ladders are:
+- Lightweight yet sturdy
+- Corrosion-resistant
+- Available in various heights
+- Suitable for indoor and outdoor use
 
-**Comfort Considerations**
-- Temperature control
-- Noise management
-- Plants for air quality and aesthetics
-- Personal touches that inspire without distracting
+**Platform Trolleys**
+Heavy-duty trolleys for:
+- Warehouse operations
+- Retail stocking
+- Moving equipment
+- Industrial applications
 
-**Maintenance Routine**
-End each workday with a quick cleanup. Weekly deep cleaning keeps your space fresh and functional.`,
-    author: "Lisa Park",
+**Industrial Supplies**
+
+**Water Hoses**
+Durable hoses for:
+- Garden and landscape maintenance
+- Industrial cleaning
+- Construction sites
+- Fire safety applications
+
+**Paints**
+Industrial-grade paints for:
+- Machinery and equipment
+- Building maintenance
+- Road marking
+- Safety color coding
+
+**Signage and Safety**
+
+**Road Sign Boards**
+Complete range including:
+- Warning signs
+- Directional signs
+- Speed limit signs
+- Custom signs
+
+**Airport Windsocks**
+Specialized windsocks meeting aviation standards for:
+- Airports
+- Heliports
+- Airstrips
+- Outdoor facilities
+
+Contact ALBAITH for your industrial supply needs. We offer competitive pricing and bulk discounts for large orders.`,
+    author: "Industrial Division",
     date: "2023-12-20",
-    category: "Productivity",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=400&fit=crop",
+    category: "Products",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop",
   },
 ];

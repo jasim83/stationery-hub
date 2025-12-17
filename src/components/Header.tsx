@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Pen } from "lucide-react";
+import { Menu, X, Building2 } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -20,9 +20,9 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-            <Pen className="h-5 w-5 text-primary-foreground" />
+            <Building2 className="h-5 w-5 text-primary-foreground" />
           </div>
-          <span className="font-display text-xl font-bold">OfficeHub</span>
+          <span className="font-display text-xl font-bold">ALBAITH</span>
         </Link>
 
         {/* Desktop Navigation */}

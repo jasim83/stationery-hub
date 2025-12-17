@@ -88,7 +88,7 @@ export const products: Product[] = [
     description: "Double A brand A3 size paper for large format printing",
     price: 32.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=400&h=400&fit=crop",
+    image:"/images/doublea3.jpg",
   },
   {
     id: "9",
@@ -96,7 +96,7 @@ export const products: Product[] = [
     description: "Double A brand A4 size paper - smooth and reliable",
     price: 22.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=400&fit=crop",
+    image:"/images/doublea4.jpg",
     featured: true,
   },
   {

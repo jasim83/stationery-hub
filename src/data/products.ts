@@ -28,7 +28,7 @@ export const products: Product[] = [
     description: "Premium air freshener spray for a pleasant office environment",
     price: 12.99,
     category: "Room Essentials",
-    image: "/images/room-spray.jpg",
+    image: "/images/roomspray.jpg",
     featured: true,
   },
 
@@ -39,7 +39,7 @@ export const products: Product[] = [
     description: "Vibrant colored A4 paper for creative projects and presentations",
     price: 15.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400&h=400&fit=crop",
+    image: "/images/colour-a4-paper.jpg",
     featured: true,
   },
   {
@@ -48,7 +48,7 @@ export const products: Product[] = [
     description: "Continuous computer forms for dot matrix and impact printers",
     price: 24.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=400&h=400&fit=crop",
+    image: "/images/computer-forms.jpg",
   },
   {
     id: "4",
@@ -155,7 +155,7 @@ export const products: Product[] = [
     description: "Professional binding machines for document presentation",
     price: 199.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?w=400&h=400&fit=crop",
+    image: "/images/binding-machine.jpg",
     featured: true,
   },
   {
@@ -164,7 +164,7 @@ export const products: Product[] = [
     description: "Compatible ink cartridges for all major printer brands",
     price: 29.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
+    image: "/images/ink-cartridges.jpg",
   },
   {
     id: "18",
@@ -278,7 +278,7 @@ export const products: Product[] = [
     description: "Sturdy aluminium ladders for office and warehouse use",
     price: 149.99,
     category: "Office Essentials",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image: "/images/aluminium-ladder.jpg",
   },
   {
     id: "32",
@@ -412,7 +412,7 @@ export const products: Product[] = [
     description: "High-visibility windsocks for airports and heliports",
     price: 89.99,
     category: "Stamps & Sign Boards",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image: "/images/airport-windsock.gif",
   },
 
   // Category 7: Cleaning & Household Items
@@ -422,7 +422,7 @@ export const products: Product[] = [
     description: "Powerful bleaching liquid for cleaning and disinfection",
     price: 7.99,
     category: "Cleaning & Household Items",
-    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
+    image: "/images/bleaching-liquid.jpg",
   },
   {
     id: "49",
@@ -496,7 +496,7 @@ export const products: Product[] = [
     description: "LED baton signal lights for traffic control and emergencies",
     price: 29.99,
     category: "Safety Products",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image: "/images/baton-signal-lights.jpg",
   },
   {
     id: "58",

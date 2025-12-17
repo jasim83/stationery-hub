@@ -438,7 +438,7 @@ export const products: Product[] = [
     description: "Complete mop and bucket sets for efficient cleaning",
     price: 24.99,
     category: "Cleaning & Household Items",
-    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
+    image:"/images/Bucket MOP.jpg",
   },
   {
     id: "51",

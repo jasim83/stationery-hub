@@ -80,7 +80,7 @@ export const products: Product[] = [
     description: "Premium King brand A4 paper with excellent print quality",
     price: 19.99,
     category: "Writing & Office Materials",
-    image:"/images/kingcopya4.jpg",
+    image:"/images/knew.png",
   },
   {
     id: "8",

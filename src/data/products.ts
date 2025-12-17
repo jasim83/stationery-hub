@@ -28,7 +28,7 @@ export const products: Product[] = [
     description: "Premium air freshener spray for a pleasant office environment",
     price: 12.99,
     category: "Room Essentials",
-    image: "/images/room-spray.jpg",
+    image: jasim83/stationery-hub/public/images/51zBDE3JHEL._AC_UF1000,1000_QL80_ (1).jpg,
     featured: true,
   },
 

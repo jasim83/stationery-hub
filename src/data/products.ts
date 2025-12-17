@@ -496,7 +496,7 @@ export const products: Product[] = [
     description: "LED baton signal lights for traffic control and emergencies",
     price: 29.99,
     category: "Safety Products",
-    image:"/images/battonlight.avif",
+    image:"/images/btlight.jpg",
   },
   {
     id: "58",

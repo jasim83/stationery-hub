@@ -28,7 +28,7 @@ export const products: Product[] = [
     description: "Premium air freshener spray for a pleasant office environment",
     price: 12.99,
     category: "Room Essentials",
-    image: "https://picsum.photos/400/400?random=1",
+    image: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400&h=400&fit=crop",
     featured: true,
   },
 
@@ -39,7 +39,7 @@ export const products: Product[] = [
     description: "Vibrant colored A4 paper for creative projects and presentations",
     price: 15.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=2",
+    image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400&h=400&fit=crop",
     featured: true,
   },
   {
@@ -48,7 +48,7 @@ export const products: Product[] = [
     description: "Continuous computer forms for dot matrix and impact printers",
     price: 24.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=3",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=400&h=400&fit=crop",
   },
   {
     id: "4",
@@ -56,7 +56,7 @@ export const products: Product[] = [
     description: "Premium quality Conqueror brand paper for professional documents",
     price: 45.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=4",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=400&fit=crop",
   },
   {
     id: "5",
@@ -64,7 +64,7 @@ export const products: Product[] = [
     description: "A4 size graph paper with precise grid lines for technical drawings",
     price: 8.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=5",
+    image: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=400&h=400&fit=crop",
   },
   {
     id: "6",
@@ -72,7 +72,7 @@ export const products: Product[] = [
     description: "High-quality IK brand A4 paper for everyday office use",
     price: 18.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=3",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=400&h=400&fit=crop",
   },
   {
     id: "7",
@@ -80,7 +80,7 @@ export const products: Product[] = [
     description: "Premium King brand A4 paper with excellent print quality",
     price: 19.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=4",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=400&fit=crop",
   },
   {
     id: "8",
@@ -88,7 +88,7 @@ export const products: Product[] = [
     description: "Double A brand A3 size paper for large format printing",
     price: 32.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=3",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=400&h=400&fit=crop",
   },
   {
     id: "9",
@@ -96,7 +96,7 @@ export const products: Product[] = [
     description: "Double A brand A4 size paper - smooth and reliable",
     price: 22.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=4",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=400&fit=crop",
     featured: true,
   },
   {
@@ -105,7 +105,7 @@ export const products: Product[] = [
     description: "Paper One branded A4 paper for everyday printing needs",
     price: 20.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=3",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=400&h=400&fit=crop",
   },
   {
     id: "11",
@@ -113,7 +113,7 @@ export const products: Product[] = [
     description: "Paper One branded A3 paper for large format documents",
     price: 34.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=4",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=400&fit=crop",
   },
   {
     id: "12",
@@ -121,7 +121,7 @@ export const products: Product[] = [
     description: "High-quality plotter paper rolls for large format printers",
     price: 89.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=2",
+    image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400&h=400&fit=crop",
   },
   {
     id: "13",
@@ -129,7 +129,7 @@ export const products: Product[] = [
     description: "Thermal paper rolls for receipt printers and POS systems",
     price: 14.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=4",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=400&fit=crop",
   },
   {
     id: "14",
@@ -137,7 +137,7 @@ export const products: Product[] = [
     description: "Translucent tracing paper for design and architectural work",
     price: 12.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=5",
+    image: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=400&h=400&fit=crop",
   },
   {
     id: "15",
@@ -145,7 +145,7 @@ export const products: Product[] = [
     description: "Heavy-duty garbage bags in various colors for waste segregation",
     price: 9.99,
     category: "Writing & Office Materials",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
 
   // Category 3: Printer & Office Supplies
@@ -155,7 +155,7 @@ export const products: Product[] = [
     description: "Professional binding machines for document presentation",
     price: 199.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=7",
+    image: "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?w=400&h=400&fit=crop",
     featured: true,
   },
   {
@@ -164,7 +164,7 @@ export const products: Product[] = [
     description: "Compatible ink cartridges for all major printer brands",
     price: 29.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=8",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
   },
   {
     id: "18",
@@ -172,7 +172,7 @@ export const products: Product[] = [
     description: "Original toner cartridges for all model printers",
     price: 89.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=8",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
   },
   {
     id: "19",
@@ -180,7 +180,7 @@ export const products: Product[] = [
     description: "Ribbon cartridges for dot matrix and impact printers",
     price: 15.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=8",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
   },
   {
     id: "20",
@@ -188,7 +188,7 @@ export const products: Product[] = [
     description: "High-yield toner cartridges for laser printers",
     price: 79.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=8",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
   },
   {
     id: "21",
@@ -196,7 +196,7 @@ export const products: Product[] = [
     description: "Quality ink cartridges for inkjet printers",
     price: 25.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=8",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
   },
   {
     id: "22",
@@ -204,7 +204,7 @@ export const products: Product[] = [
     description: "Replacement drum kits for laser printers",
     price: 149.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=8",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
   },
   {
     id: "23",
@@ -212,7 +212,7 @@ export const products: Product[] = [
     description: "Imaging units for high-quality print output",
     price: 129.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=8",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
   },
   {
     id: "24",
@@ -220,7 +220,7 @@ export const products: Product[] = [
     description: "Waste toner collection bottles for laser printers",
     price: 35.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=8",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
   },
   {
     id: "25",
@@ -228,7 +228,7 @@ export const products: Product[] = [
     description: "Premium inkjet film rolls for transparency printing",
     price: 45.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=2",
+    image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400&h=400&fit=crop",
   },
   {
     id: "26",
@@ -236,7 +236,7 @@ export const products: Product[] = [
     description: "Inks for wide format and large format printers",
     price: 119.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=8",
+    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
   },
   {
     id: "27",
@@ -244,7 +244,7 @@ export const products: Product[] = [
     description: "Professional large format printer for posters and banners",
     price: 2499.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=7",
+    image: "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?w=400&h=400&fit=crop",
   },
   {
     id: "28",
@@ -252,7 +252,7 @@ export const products: Product[] = [
     description: "Thermal fax films for fax machines",
     price: 19.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=2",
+    image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400&h=400&fit=crop",
   },
   {
     id: "29",
@@ -260,7 +260,7 @@ export const products: Product[] = [
     description: "Recordable CD-R discs for data storage",
     price: 12.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "30",
@@ -268,7 +268,7 @@ export const products: Product[] = [
     description: "Rewritable CD-RW discs for flexible data storage",
     price: 18.99,
     category: "Printer & Office Supplies",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
 
   // Category 4: Office Essentials
@@ -278,7 +278,7 @@ export const products: Product[] = [
     description: "Sturdy aluminium ladders for office and warehouse use",
     price: 149.99,
     category: "Office Essentials",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "32",
@@ -286,7 +286,7 @@ export const products: Product[] = [
     description: "Heavy-duty platform trolleys for moving goods",
     price: 199.99,
     category: "Office Essentials",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "33",
@@ -294,7 +294,7 @@ export const products: Product[] = [
     description: "High-resolution document scanners for digitization",
     price: 299.99,
     category: "Office Essentials",
-    image: "https://picsum.photos/400/400?random=7",
+    image: "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?w=400&h=400&fit=crop",
     featured: true,
   },
   {
@@ -303,7 +303,7 @@ export const products: Product[] = [
     description: "USB pen drives in various storage capacities",
     price: 15.99,
     category: "Office Essentials",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "35",
@@ -311,7 +311,7 @@ export const products: Product[] = [
     description: "Portable external hard disks for data backup",
     price: 89.99,
     category: "Office Essentials",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "36",
@@ -319,7 +319,7 @@ export const products: Product[] = [
     description: "Aluminum foil paper rolls for various applications",
     price: 24.99,
     category: "Office Essentials",
-    image: "https://picsum.photos/400/400?random=2",
+    image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400&h=400&fit=crop",
   },
 
   // Category 5: Industrial Products
@@ -329,7 +329,7 @@ export const products: Product[] = [
     description: "Durable water hose for industrial and garden use",
     price: 45.99,
     category: "Industrial Products",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "38",
@@ -345,7 +345,7 @@ export const products: Product[] = [
     description: "Quality wood materials for construction and crafts",
     price: 79.99,
     category: "Industrial Products",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
 
   // Category 6: Stamps & Sign Boards
@@ -355,7 +355,7 @@ export const products: Product[] = [
     description: "Personalized stamps for schools and educational institutions",
     price: 19.99,
     category: "Stamps & Sign Boards",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "41",
@@ -363,7 +363,7 @@ export const products: Product[] = [
     description: "Adjustable date stamps for office documentation",
     price: 14.99,
     category: "Stamps & Sign Boards",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "42",
@@ -371,7 +371,7 @@ export const products: Product[] = [
     description: "Custom rubber stamps for business and personal use",
     price: 12.99,
     category: "Stamps & Sign Boards",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "43",
@@ -379,7 +379,7 @@ export const products: Product[] = [
     description: "Convenient self-inking stamps with built-in ink pad",
     price: 24.99,
     category: "Stamps & Sign Boards",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
     featured: true,
   },
   {
@@ -388,7 +388,7 @@ export const products: Product[] = [
     description: "Stamp pads and refill inks in various colors",
     price: 8.99,
     category: "Stamps & Sign Boards",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "45",
@@ -396,7 +396,7 @@ export const products: Product[] = [
     description: "Professional door name plates for offices",
     price: 29.99,
     category: "Stamps & Sign Boards",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "46",
@@ -404,7 +404,7 @@ export const products: Product[] = [
     description: "All types of road sign boards for traffic management",
     price: 149.99,
     category: "Stamps & Sign Boards",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "47",
@@ -412,7 +412,7 @@ export const products: Product[] = [
     description: "High-visibility windsocks for airports and heliports",
     price: 89.99,
     category: "Stamps & Sign Boards",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
 
   // Category 7: Cleaning & Household Items
@@ -422,7 +422,7 @@ export const products: Product[] = [
     description: "Powerful bleaching liquid for cleaning and disinfection",
     price: 7.99,
     category: "Cleaning & Household Items",
-    image: "https://picsum.photos/400/400?random=10",
+    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
   },
   {
     id: "49",
@@ -430,7 +430,7 @@ export const products: Product[] = [
     description: "Durable broom sticks for floor cleaning",
     price: 9.99,
     category: "Cleaning & Household Items",
-    image: "https://picsum.photos/400/400?random=10",
+    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
   },
   {
     id: "50",
@@ -438,7 +438,7 @@ export const products: Product[] = [
     description: "Complete mop and bucket sets for efficient cleaning",
     price: 24.99,
     category: "Cleaning & Household Items",
-    image: "https://picsum.photos/400/400?random=10",
+    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
   },
   {
     id: "51",
@@ -446,7 +446,7 @@ export const products: Product[] = [
     description: "Effective dish washing liquid for spotless dishes",
     price: 5.99,
     category: "Cleaning & Household Items",
-    image: "https://picsum.photos/400/400?random=10",
+    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
   },
   {
     id: "52",
@@ -454,7 +454,7 @@ export const products: Product[] = [
     description: "Multi-surface floor cleaning liquid",
     price: 8.99,
     category: "Cleaning & Household Items",
-    image: "https://picsum.photos/400/400?random=10",
+    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
   },
   {
     id: "53",
@@ -462,7 +462,7 @@ export const products: Product[] = [
     description: "Streak-free glass and window cleaning solution",
     price: 6.99,
     category: "Cleaning & Household Items",
-    image: "https://picsum.photos/400/400?random=10",
+    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
   },
   {
     id: "54",
@@ -470,7 +470,7 @@ export const products: Product[] = [
     description: "Antibacterial hand wash liquid for hygiene",
     price: 4.99,
     category: "Cleaning & Household Items",
-    image: "https://picsum.photos/400/400?random=10",
+    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
   },
   {
     id: "55",
@@ -478,7 +478,7 @@ export const products: Product[] = [
     description: "Heavy-duty large dustbins for office and industrial use",
     price: 49.99,
     category: "Cleaning & Household Items",
-    image: "https://picsum.photos/400/400?random=10",
+    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
   },
   {
     id: "56",
@@ -486,7 +486,7 @@ export const products: Product[] = [
     description: "Soft toilet tissue and paper rolls",
     price: 12.99,
     category: "Cleaning & Household Items",
-    image: "https://picsum.photos/400/400?random=10",
+    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=400&h=400&fit=crop",
   },
 
   // Category 8: Safety Products
@@ -496,7 +496,7 @@ export const products: Product[] = [
     description: "LED baton signal lights for traffic control and emergencies",
     price: 29.99,
     category: "Safety Products",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "58",
@@ -504,7 +504,7 @@ export const products: Product[] = [
     description: "High-powered LED torch lights for safety applications",
     price: 24.99,
     category: "Safety Products",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "59",
@@ -512,7 +512,7 @@ export const products: Product[] = [
     description: "Industrial safety helmets meeting safety standards",
     price: 34.99,
     category: "Safety Products",
-    image: "https://picsum.photos/400/400?random=11",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=400&fit=crop",
     featured: true,
   },
   {
@@ -521,7 +521,7 @@ export const products: Product[] = [
     description: "Protective safety gloves for various work environments",
     price: 14.99,
     category: "Safety Products",
-    image: "https://picsum.photos/400/400?random=11",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=400&fit=crop",
   },
   {
     id: "61",
@@ -529,7 +529,7 @@ export const products: Product[] = [
     description: "Steel-toe safety shoes for workplace protection",
     price: 79.99,
     category: "Safety Products",
-    image: "https://picsum.photos/400/400?random=11",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=400&fit=crop",
   },
   {
     id: "62",
@@ -537,7 +537,7 @@ export const products: Product[] = [
     description: "High-visibility traffic cones for road safety",
     price: 19.99,
     category: "Safety Products",
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: "63",
@@ -545,6 +545,6 @@ export const products: Product[] = [
     description: "Essential tools kit for workers and technicians",
     price: 89.99,
     category: "Safety Products",
-    image: "https://picsum.photos/400/400?random=11",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=400&fit=crop",
   },
 ];

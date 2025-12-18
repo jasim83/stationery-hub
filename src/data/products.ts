@@ -204,7 +204,7 @@ export const products: Product[] = [
     description: "Quality ink cartridges for inkjet printers",
     price: 25.99,
     category: "Printer & Office Supplies",
-    image:"/images/inkcat.jpg" ,
+    image:"/images/inkcat2.png" ,
   },
   {
     id: "22",
@@ -279,7 +279,7 @@ export const products: Product[] = [
     description:"Keeping your information secure and your office tidy.",
     price: 149.99,
     category: "Office Essentials",
-    image:"/images/papercut.jpg",
+    image:"/images/papcut.jpg",
   },
 
   {

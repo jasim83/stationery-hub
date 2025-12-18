@@ -288,7 +288,7 @@ export const products: Product[] = [
     description: "High-resolution document scanners for digitization",
     price: 299.99,
     category: "Office Essentials",
-    image:"/images/sc.jpg",
+    image:"/images/scan.jpg",
     featured: true,
   },
   {

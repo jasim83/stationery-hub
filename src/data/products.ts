@@ -244,7 +244,7 @@ export const products: Product[] = [
     description: "Inks for wide format and large format printers",
     price: 119.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
+    image:"/images/largeprintink.jpg" ,
   },
   {
     id: "27",
@@ -252,7 +252,7 @@ export const products: Product[] = [
     description: "Professional large format printer for posters and banners",
     price: 2499.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?w=400&h=400&fit=crop",
+    image:"/images/largeprinter.jpg" ,
   },
   {
     id: "28",
@@ -260,26 +260,28 @@ export const products: Product[] = [
     description: "Thermal fax films for fax machines",
     price: 19.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400&h=400&fit=crop",
+    image:"/images/faxfilm.jpeg" ,
   },
   {
     id: "29",
-    name: "CD-R Plus",
+    name: "CD-R Plus,CD-RWPLUS",
     description: "Recordable CD-R discs for data storage",
     price: 12.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image:"/images/cd.JPG" ,
   },
-  {
-    id: "30",
-    name: "CD-RW Plus",
-    description: "Rewritable CD-RW discs for flexible data storage",
-    price: 18.99,
-    category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
-  },
+  
 
   // Category 4: Office Essentials
+  {
+    id: "30",
+    name: "Paper Shredder Machine ",
+    description:"Keeping your information secure and your office tidy.",
+    price: 149.99,
+    category: "Office Essentials",
+    image:"/images/papercut.jpg",
+  },
+
   {
     id: "31",
     name: "Aluminium Ladders",

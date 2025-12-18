@@ -358,7 +358,7 @@ export const products: Product[] = [
     description: "Personalized stamps for schools and educational institutions",
     price: 19.99,
     category: "Stamps & Sign Boards",
-    image:"/cmss.jpg",
+    image:"/images/cmss.jpg",
   },
   {
     id: "41",
@@ -374,7 +374,7 @@ export const products: Product[] = [
     description: "Custom rubber stamps for business and personal use",
     price: 12.99,
     category: "Stamps & Sign Boards",
-    image: "/images/ors.png",
+    image: "/images/ors.PNG",
   },
   {
     id: "43",

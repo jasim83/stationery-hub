@@ -56,7 +56,7 @@ export const products: Product[] = [
     description: "Premium quality Conqueror brand paper for professional documents",
     price: 45.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=400&fit=crop",
+    image:"/images/conquerorpaper.jpeg",
   },
   {
     id: "5",

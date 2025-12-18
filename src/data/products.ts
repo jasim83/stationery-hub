@@ -172,7 +172,7 @@ export const products: Product[] = [
     description: "Compatible ink cartridges for all major printer brands",
     price: 29.99,
     category: "Printer & Office Supplies",
-    image: "/images/abic.jpg" ,
+    image: "/images/abic2.jpg" ,
   },
   {
     id: "18",
@@ -407,7 +407,7 @@ export const products: Product[] = [
     description: "All types of road sign boards for traffic management",
     price: 149.99,
     category: "Stamps & Sign Boards",
-    image:"/images/rsb.jpeg",
+    image:"/images/board.jpg",
   },
   {
     id: "47",

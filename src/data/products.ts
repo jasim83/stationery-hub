@@ -129,7 +129,7 @@ export const products: Product[] = [
     description: "Thermal paper rolls for receipt printers and POS systems",
     price: 14.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=400&fit=crop",
+    image:"/images/thermalpaper.jpg"  ,
   },
   {
     id: "14",

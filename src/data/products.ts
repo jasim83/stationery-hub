@@ -56,7 +56,7 @@ export const products: Product[] = [
     description: "Premium quality Conqueror brand paper for professional documents",
     price: 45.99,
     category: "Writing & Office Materials",
-    image:"/images/conquepap.jpeg",
+    image:"/images/conquepap.jpg",
   },
   {
     id: "5",
@@ -121,7 +121,7 @@ export const products: Product[] = [
     description: "High-quality plotter paper rolls for large format printers",
     price: 89.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400&h=400&fit=crop",
+    image:"/images/plotterpaper.jpg",
   },
   {
     id: "13",
@@ -129,7 +129,7 @@ export const products: Product[] = [
     description: "Thermal paper rolls for receipt printers and POS systems",
     price: 14.99,
     category: "Writing & Office Materials",
-    image:"/images/thermalpaper.jpg"  ,
+    image:"/images/thermpap.jpg" ,
   },
   {
     id: "14",
@@ -137,7 +137,7 @@ export const products: Product[] = [
     description: "Translucent tracing paper for design and architectural work",
     price: 12.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=400&h=400&fit=crop",
+    image:"/images/tracingpaper.jpg" ,
   },
   {
     id: "15",
@@ -145,7 +145,15 @@ export const products: Product[] = [
     description: "Heavy-duty garbage bags in various colors for waste segregation",
     price: 9.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image:"/images/garbagebag.jpg" ,
+  },
+  {
+    id: "16",
+    name: "Foil Paper",
+    description: "Foil paper",
+    price: 12.99,
+    category: "Writing & Office Materials",
+    image: "/images/foilpap.jpg" ,
   },
 
   // Category 3: Printer & Office Supplies

@@ -281,65 +281,58 @@ export const products: Product[] = [
     category: "Office Essentials",
     image:"/images/papcut.jpg",
   },
+  
+  {
+    id: "32",
+    name: "Scanners",
+    description: "High-resolution document scanners for digitization",
+    price: 299.99,
+    category: "Office Essentials",
+    image:"/images/sc.jpg",
+    featured: true,
+  },
+  {
+    id: "33",
+    name: "Pen Drives",
+    description: "USB pen drives in various storage capacities",
+    price: 15.99,
+    category: "Office Essentials",
+    image:"/images/pen.png",
+  },
+  {
+    id: "34",
+    name: "External Hard Disk",
+    description: "Portable external hard disks for data backup",
+    price: 89.99,
+    category: "Office Essentials",
+    image:"/images/eh.jpg",
+  },
+ 
 
+  // Category 5: Industrial Products
   {
     id: "31",
     name: "Aluminium Ladders",
     description: "Sturdy aluminium ladders for office and warehouse use",
     price: 149.99,
-    category: "Office Essentials",
+    category: "Industrial Products",
     image: "/images/aluminium-ladder.jpg",
   },
   {
-    id: "32",
+    id: "35",
     name: "Platform Trolleys",
     description: "Heavy-duty platform trolleys for moving goods",
     price: 199.99,
-    category: "Office Essentials",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
-  },
-  {
-    id: "33",
-    name: "Scanners",
-    description: "High-resolution document scanners for digitization",
-    price: 299.99,
-    category: "Office Essentials",
-    image: "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?w=400&h=400&fit=crop",
-    featured: true,
-  },
-  {
-    id: "34",
-    name: "Pen Drives",
-    description: "USB pen drives in various storage capacities",
-    price: 15.99,
-    category: "Office Essentials",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
-  },
-  {
-    id: "35",
-    name: "External Hard Disk",
-    description: "Portable external hard disks for data backup",
-    price: 89.99,
-    category: "Office Essentials",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    category: "Industrial Products",
+    image:"/images/pt.jpg",
   },
   {
     id: "36",
-    name: "Foil Paper Rolls",
-    description: "Aluminum foil paper rolls for various applications",
-    price: 24.99,
-    category: "Office Essentials",
-    image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400&h=400&fit=crop",
-  },
-
-  // Category 5: Industrial Products
-  {
-    id: "37",
     name: "Water Hose",
     description: "Durable water hose for industrial and garden use",
     price: 45.99,
     category: "Industrial Products",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image:"/images/wat.jpg",
   },
   {
     id: "38",
@@ -347,7 +340,7 @@ export const products: Product[] = [
     description: "Industrial grade paints for various surfaces",
     price: 35.99,
     category: "Industrial Products",
-    image: "https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?w=400&h=400&fit=crop",
+    image:"/images/paint.jpg",
   },
   {
     id: "39",
@@ -355,7 +348,7 @@ export const products: Product[] = [
     description: "Quality wood materials for construction and crafts",
     price: 79.99,
     category: "Industrial Products",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image:"/images/wd.jpg",
   },
 
   // Category 6: Stamps & Sign Boards

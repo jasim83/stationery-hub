@@ -172,7 +172,7 @@ export const products: Product[] = [
     description: "Compatible ink cartridges for all major printer brands",
     price: 29.99,
     category: "Printer & Office Supplies",
-    image: "/images/ink-cartridges.jpg",
+    image: "/images/inkcat.png" ,
   },
   {
     id: "18",
@@ -180,7 +180,7 @@ export const products: Product[] = [
     description: "Original toner cartridges for all model printers",
     price: 89.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
+    image:"/images/tonercat.png" ,
   },
   {
     id: "19",
@@ -188,15 +188,15 @@ export const products: Product[] = [
     description: "Ribbon cartridges for dot matrix and impact printers",
     price: 15.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
+    image:"/images/ribboncat.png" ,
   },
   {
     id: "20",
-    name: "Toner Cartridges",
+    name: "Toner Cartridges for laser printer",
     description: "High-yield toner cartridges for laser printers",
     price: 79.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
+    image:"/images/lasertonercat.jpg" ,
   },
   {
     id: "21",
@@ -204,7 +204,7 @@ export const products: Product[] = [
     description: "Quality ink cartridges for inkjet printers",
     price: 25.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
+    image:"/images/inkcat.jpg" ,
   },
   {
     id: "22",
@@ -212,7 +212,7 @@ export const products: Product[] = [
     description: "Replacement drum kits for laser printers",
     price: 149.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
+    image:"/images/printerdrum.jpg" ,
   },
   {
     id: "23",
@@ -220,7 +220,7 @@ export const products: Product[] = [
     description: "Imaging units for high-quality print output",
     price: 129.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
+    image:"/images/printerimg.jpg" ,
   },
   {
     id: "24",
@@ -228,7 +228,7 @@ export const products: Product[] = [
     description: "Waste toner collection bottles for laser printers",
     price: 35.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=400&h=400&fit=crop",
+    image:"/images/printerwastetoner.jpg" ,
   },
   {
     id: "25",
@@ -236,7 +236,7 @@ export const products: Product[] = [
     description: "Premium inkjet film rolls for transparency printing",
     price: 45.99,
     category: "Printer & Office Supplies",
-    image: "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400&h=400&fit=crop",
+    image:"/images/inkjetfilm.jpg" ,
   },
   {
     id: "26",

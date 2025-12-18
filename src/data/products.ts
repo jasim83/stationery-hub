@@ -358,7 +358,7 @@ export const products: Product[] = [
     description: "Personalized stamps for schools and educational institutions",
     price: 19.99,
     category: "Stamps & Sign Boards",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image:"/cmss.jpg",
   },
   {
     id: "41",
@@ -366,7 +366,7 @@ export const products: Product[] = [
     description: "Adjustable date stamps for office documentation",
     price: 14.99,
     category: "Stamps & Sign Boards",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image:"/images/date.jpg",
   },
   {
     id: "42",
@@ -374,7 +374,7 @@ export const products: Product[] = [
     description: "Custom rubber stamps for business and personal use",
     price: 12.99,
     category: "Stamps & Sign Boards",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image: "/images/ors.png",
   },
   {
     id: "43",
@@ -382,7 +382,7 @@ export const products: Product[] = [
     description: "Convenient self-inking stamps with built-in ink pad",
     price: 24.99,
     category: "Stamps & Sign Boards",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image:"/images/sis.png",
     featured: true,
   },
   {
@@ -391,7 +391,7 @@ export const products: Product[] = [
     description: "Stamp pads and refill inks in various colors",
     price: 8.99,
     category: "Stamps & Sign Boards",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image:"/images/spi.jpg",
   },
   {
     id: "45",
@@ -399,7 +399,7 @@ export const products: Product[] = [
     description: "Professional door name plates for offices",
     price: 29.99,
     category: "Stamps & Sign Boards",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image:"/images/dnp.jpg",
   },
   {
     id: "46",
@@ -407,7 +407,7 @@ export const products: Product[] = [
     description: "All types of road sign boards for traffic management",
     price: 149.99,
     category: "Stamps & Sign Boards",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
+    image:"/images/rsb.jpeg",
   },
   {
     id: "47",

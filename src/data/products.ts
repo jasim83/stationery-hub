@@ -64,7 +64,7 @@ export const products: Product[] = [
     description: "A4 size graph paper with precise grid lines for technical drawings",
     price: 8.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?w=400&h=400&fit=crop",
+    image: "/images/graphpaper.jpg",
   },
   {
     id: "6",
@@ -105,7 +105,7 @@ export const products: Product[] = [
     description: "Paper One branded A4 paper for everyday printing needs",
     price: 20.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1568667256549-094345857637?w=400&h=400&fit=crop",
+    image:"/images/paperonea4.jpg",
   },
   {
     id: "11",
@@ -113,7 +113,7 @@ export const products: Product[] = [
     description: "Paper One branded A3 paper for large format documents",
     price: 34.99,
     category: "Writing & Office Materials",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=400&fit=crop",
+    image:"/images/paperonea3.jpg",
   },
   {
     id: "12",

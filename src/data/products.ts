@@ -172,7 +172,7 @@ export const products: Product[] = [
     description: "Compatible ink cartridges for all major printer brands",
     price: 29.99,
     category: "Printer & Office Supplies",
-    image: "/images/inkcat.png" ,
+    image: "/images/abic.jpg" ,
   },
   {
     id: "18",

@@ -595,7 +595,7 @@ export const products: Product[] = [
     description: "Industrial safety helmets meeting safety standards",
     price: 34.99,
     category: "Safety Products",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=400&fit=crop",
+    image:"/images/shl.jpg", 
     featured: true,
   },
   {

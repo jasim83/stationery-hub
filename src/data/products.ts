@@ -505,7 +505,7 @@ export const products: Product[] = [
     description: "premium spray & refreshners",
     price: 12.99,
     category: "Cleaning & Household Items",
-    image:"/images/tf.jpg" ,
+    image:"/images/tf1.jpg" ,
   },
   {
     id: "59",

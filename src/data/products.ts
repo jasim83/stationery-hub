@@ -569,7 +569,7 @@ export const products: Product[] = [
     description: "",
     price: 12.99,
     category: "Cleaning & Household Items",
-    image:"/images/tp.jpg" ,
+    image:"/images/tps1.jpg" ,
   },
 
   // Category 8: Safety Products

@@ -513,7 +513,7 @@ export const products: Product[] = [
     description: "",
     price: 12.99,
     category: "Cleaning & Household Items",
-    image:"/images/tuc.jpeg" ,
+    image:"/images/tuc1.jpeg" ,
   },
   {
     id: "60",

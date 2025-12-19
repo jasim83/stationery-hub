@@ -69,9 +69,9 @@ export function Footer() {
                 <Phone className="h-4 w-4" />
                 +673 2663321
               </a>
-              <a href="https://wa.me/673872201" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+              <a href="https://wa.me/6732663321" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 <MessageCircle className="h-4 w-4" />
-                WhatsApp: +673 872201
+                WhatsApp: +673 2663321
               </a>
               <a href="mailto:albaithbrunei@gmail.com" className="flex items-center gap-2 text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 <Mail className="h-4 w-4" />

@@ -595,7 +595,7 @@ export const products: Product[] = [
     description: "Industrial safety helmets meeting safety standards",
     price: 34.99,
     category: "Safety Products",
-    image:"/images/shl.jpg", 
+    image:"/images/sh2.jpg", 
     featured: true,
   },
   {

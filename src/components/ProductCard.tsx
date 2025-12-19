@@ -27,9 +27,6 @@ export function ProductCard({ product }: ProductCardProps) {
         <p className="text-sm text-muted-foreground line-clamp-2">
           {product.description}
         </p>
-        <p className="font-display font-bold text-xl text-primary">
-          ${product.price.toFixed(2)}
-        </p>
       </CardContent>
     </Card>
   );

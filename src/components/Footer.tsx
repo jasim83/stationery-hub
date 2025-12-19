@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Building2, Mail, Phone, MapPin, MessageCircle } from "lucide-react";
+import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 export function Footer() {
   return (
@@ -9,13 +10,16 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                <Building2 className="h-5 w-5 text-primary-foreground" />
-              </div>
+              <img 
+                src={logo} 
+                alt="ALBAITH Logo" 
+                className="h-10 w-10 object-contain rounded-lg"
+                loading="lazy"
+              />
               <span className="font-display text-xl font-bold">ALBAITH</span>
             </Link>
             <p className="text-sm text-secondary-foreground/70">
-              Serving quality products since 1992. Your trusted supplier for office, industrial, and safety products in Brunei.
+              Your trusted supplier for office, industrial, and safety products in Brunei.
             </p>
           </div>
 
@@ -82,7 +86,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-secondary-foreground/10 mt-8 pt-8 text-center text-sm text-secondary-foreground/50">
-          <p>&copy; {new Date().getFullYear()} ALBAITH. All rights reserved. Serving quality products since 1992.</p>
+          <p>&copy; {new Date().getFullYear()} ALBAITH. All rights reserved.</p>
         </div>
       </div>
     </footer>

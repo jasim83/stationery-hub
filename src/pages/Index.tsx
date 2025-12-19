@@ -11,8 +11,8 @@ const featuredProducts = products.filter((p) => p.featured).slice(0, 8);
 const features = [
   {
     icon: Award,
-    title: "Since 1992",
-    description: "Over 30 years of trusted service in Brunei",
+    title: "Trusted Quality",
+    description: "Premium office and industrial supplies you can rely on",
   },
   {
     icon: Package,
@@ -44,10 +44,10 @@ const Index = () => {
             <div className="max-w-2xl space-y-6 animate-fade-in">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight">
                 ALBAITH
-                <span className="text-primary block">Quality Since 1992</span>
+                <span className="text-primary block">Quality You Can Trust</span>
               </h1>
               <p className="text-lg md:text-xl text-white/80 max-w-lg">
-                Your trusted supplier for office supplies, safety equipment, industrial products, and more in Brunei. Serving businesses for over 30 years.
+                Your trusted supplier for office supplies, safety equipment, industrial products, and more in Brunei.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button size="lg" asChild>
@@ -148,7 +148,7 @@ const Index = () => {
               Ready to Order?
             </h2>
             <p className="text-secondary-foreground/70 max-w-xl mx-auto mb-8">
-              Contact us today for bulk orders, special pricing, and personalized service. Over 30 years of trusted service in Brunei.
+              Contact us today for bulk orders, special pricing, and personalized service.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>

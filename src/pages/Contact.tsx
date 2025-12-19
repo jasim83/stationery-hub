@@ -14,8 +14,8 @@ const Contact = () => {
     {
       icon: MessageCircle,
       title: "WhatsApp Order",
-      content: "+673 2663321 / +673 872201",
-      href: "https://wa.me/673872201",
+      content: "+673 2663321",
+      href: "https://wa.me/6732663321",
       external: true,
     },
     {
@@ -109,7 +109,7 @@ const Contact = () => {
                 <h3 className="font-display font-semibold mb-2">Order via WhatsApp</h3>
                 <p className="text-muted-foreground text-sm mb-4">Get instant responses and place your orders on WhatsApp</p>
                 <Button asChild size="lg">
-                  <a href="https://wa.me/673872201" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/6732663321" target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="mr-2 h-4 w-4" />
                     Order on WhatsApp
                   </a>

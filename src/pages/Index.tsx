@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Package, Truck, HeadphonesIcon, Award } from "lucide-react";
+import { ArrowRight, Package, Truck, HeadphonesIcon, Award, Pencil, FileText, Monitor, Stamp, SprayCan, Wrench, HardHat } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -28,6 +28,51 @@ const features = [
     icon: HeadphonesIcon,
     title: "Expert Support",
     description: "Friendly customer service when you need it",
+  },
+];
+
+const productCategories = [
+  {
+    name: "Stationery",
+    icon: Pencil,
+    image: "/images/colour-a4-paper.jpg",
+    description: "Office stationery and supplies",
+  },
+  {
+    name: "Papers",
+    icon: FileText,
+    image: "/images/doublea4.jpg",
+    description: "Premium quality papers for all needs",
+  },
+  {
+    name: "Computer Accessories",
+    icon: Monitor,
+    image: "/images/scan.jpg",
+    description: "Printers, cartridges & office equipment",
+  },
+  {
+    name: "Rubber Stamps",
+    icon: Stamp,
+    image: "/images/sis.png",
+    description: "Custom stamps and sign boards",
+  },
+  {
+    name: "Cleaning Items",
+    icon: SprayCan,
+    image: "/images/roomspray.jpg",
+    description: "Cleaning & household essentials",
+  },
+  {
+    name: "Hardwares",
+    icon: Wrench,
+    image: "/images/aluminium-ladder.jpg",
+    description: "Industrial tools and equipment",
+  },
+  {
+    name: "Safety Products",
+    icon: HardHat,
+    image: "/images/sh2.jpg",
+    description: "Safety gear and protective equipment",
   },
 ];
 
@@ -115,28 +160,48 @@ const Index = () => {
         </section>
 
         {/* Categories Preview */}
-        <section className="py-16 bg-muted/50">
+        <section className="py-20 bg-muted/50">
           <div className="container">
-            <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-10">Our Product Categories</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {[
-                "Room Essentials",
-                "Writing & Office Materials",
-                "Printer & Office Supplies",
-                "Office Essentials",
-                "Industrial Products",
-                "Stamps & Sign Boards",
-                "Cleaning & Household Items",
-                "Safety Products",
-              ].map((category) => (
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Our Product Categories</h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Browse our wide selection of office supplies, industrial products, and safety equipment
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {productCategories.map((category, index) => (
                 <Link
-                  key={category}
-                  to="/shop"
-                  className="bg-background rounded-lg p-6 text-center hover:shadow-lg transition-shadow border border-border"
+                  key={category.name}
+                  to={`/shop?category=${encodeURIComponent(category.name)}`}
+                  className="group relative bg-background rounded-xl overflow-hidden border border-border hover:shadow-xl transition-all duration-300 animate-fade-in"
+                  style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  <h3 className="font-semibold text-sm md:text-base">{category}</h3>
+                  <div className="aspect-[4/3] overflow-hidden">
+                    <img 
+                      src={category.image} 
+                      alt={category.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                  </div>
+                  <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
+                    <div className="flex items-center gap-2 mb-1">
+                      <category.icon className="h-5 w-5" />
+                      <h3 className="font-display font-semibold text-lg">{category.name}</h3>
+                    </div>
+                    <p className="text-white/80 text-sm">{category.description}</p>
+                  </div>
                 </Link>
               ))}
+            </div>
+            <div className="text-center mt-10">
+              <Button size="lg" asChild>
+                <Link to="/shop">
+                  View All Products
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
             </div>
           </div>
         </section>

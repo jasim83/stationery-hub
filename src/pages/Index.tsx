@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Package, Truck, HeadphonesIcon, Award, Pencil, FileText, Monitor, Stamp, SprayCan, Wrench, HardHat } from "lucide-react";
+import { ArrowRight, Package, Truck, HeadphonesIcon, Award, Pencil, FileText, Monitor, Stamp, SprayCan, Wrench, HardHat, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -45,6 +45,12 @@ const productCategories = [
     icon: Monitor,
     image: "/images/scan.jpg",
     description: "Printers, cartridges & office equipment",
+  },
+  {
+    name: "Printer Parts & Consumables",
+    icon: Printer,
+    image: "/images/tonercat.png",
+    description: "Toner, ink cartridges & printer parts",
   },
   {
     name: "Rubber Stamps",

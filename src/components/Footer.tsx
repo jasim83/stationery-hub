@@ -47,16 +47,25 @@ export function Footer() {
             <h4 className="font-display font-semibold">Categories</h4>
             <nav className="flex flex-col gap-2">
               <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
-                Room Essentials
+                Stationery
               </Link>
               <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
-                Printer & Office Supplies
+                Papers
+              </Link>
+              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+                Computer Accessories
+              </Link>
+              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+                Rubber Stamps
+              </Link>
+              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+                Cleaning Items
+              </Link>
+              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+                Hardwares
               </Link>
               <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 Safety Products
-              </Link>
-              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
-                Cleaning & Household
               </Link>
             </nav>
           </div>
@@ -77,10 +86,10 @@ export function Footer() {
                 <Mail className="h-4 w-4" />
                 albaithbrunei@gmail.com
               </a>
-              <div className="flex items-start gap-2 text-sm text-secondary-foreground/70">
+              <a href="https://maps.app.goo.gl/KJaAqY1ZWEWvkTTs9" target="_blank" rel="noopener noreferrer" className="flex items-start gap-2 text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 <MapPin className="h-4 w-4 mt-0.5" />
-                Simpang 1512, BG1121, Brunei
-              </div>
+                No.B8, Bangunan MD Bin Jafaar, Simpang 1542, Kg Sengkurong A, BG1121, Brunei Darussalam
+              </a>
             </div>
           </div>
         </div>

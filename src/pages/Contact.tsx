@@ -7,9 +7,21 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: Phone,
-      title: "Phone / Fax",
-      content: "Tel: +673 2663321 | Fax: +673 2662211",
+      title: "Phone",
+      content: "Tel: +673 2663321",
       href: "tel:+6732663321",
+    },
+    {
+      icon: Phone,
+      title: "Sales Department",
+      content: "+673 8711017 / 8722017",
+      href: "tel:+6738711017",
+    },
+    {
+      icon: Phone,
+      title: "Fax",
+      content: "+673 2662211",
+      href: "tel:+6732662211",
     },
     {
       icon: MessageCircle,
@@ -27,14 +39,14 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      content: "Simpang 1512, BG1121, Brunei",
-      href: "https://www.google.com/maps/search/?api=1&query=Simpang+1512+BG1121+Brunei",
+      content: "No.B8, Bangunan MD Bin Jafaar, Simpang 1542, Kg Sengkurong A, BG1121, Brunei Darussalam",
+      href: "https://maps.app.goo.gl/KJaAqY1ZWEWvkTTs9",
       external: true,
     },
     {
       icon: Clock,
       title: "Business Hours",
-      content: "Mon - Sat: 8AM - 6PM",
+      content: "Mon - Sat: 7:45am - 5:00pm | Fri: 7:45am - 12:00pm & 2:00pm - 5:00pm",
     },
   ];
 
@@ -93,15 +105,27 @@ const Contact = () => {
               {/* Map */}
               <div className="rounded-lg overflow-hidden border border-border h-[400px] animate-fade-in" style={{ animationDelay: '0.3s' }}>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.6!2d114.9!3d4.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwNTQnMDAuMCJOIDExNMKwNTQnMDAuMCJF!5e0!3m2!1sen!2sbn!4v1647043087964"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.7!2d114.8933!3d4.9356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3222f7c3f2a5c00d%3A0x7a7e8f2c3b4a5d6e!2sNo.B8%2C%20Bangunan%20MD%20Bin%20Jafaar%2C%20Simpang%201542%2C%20Kg%20Sengkurong%20A!5e0!3m2!1sen!2sbn!4v1647043087964"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="ALBAITH Location - Brunei"
+                  title="ALBAITH Location - Kg Sengkurong A, Brunei"
                 />
+              </div>
+              <div className="text-center">
+                <a 
+                  href="https://maps.app.goo.gl/KJaAqY1ZWEWvkTTs9" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:underline"
+                >
+                  <MapPin className="h-4 w-4" />
+                  Open in Google Maps
+                  <ExternalLink className="h-3 w-3" />
+                </a>
               </div>
 
               {/* WhatsApp CTA */}

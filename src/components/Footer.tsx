@@ -46,25 +46,28 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="font-display font-semibold">Categories</h4>
             <nav className="flex flex-col gap-2">
-              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+              <Link to="/shop?category=Stationery" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 Stationery
               </Link>
-              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+              <Link to="/shop?category=Papers" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 Papers
               </Link>
-              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+              <Link to="/shop?category=Computer%20Accessories" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 Computer Accessories
               </Link>
-              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+              <Link to="/shop?category=Printer%20Parts%20%26%20Consumables" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+                Printer Parts & Consumables
+              </Link>
+              <Link to="/shop?category=Rubber%20Stamps" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 Rubber Stamps
               </Link>
-              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+              <Link to="/shop?category=Cleaning%20Items" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 Cleaning Items
               </Link>
-              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+              <Link to="/shop?category=Hardwares" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 Hardwares
               </Link>
-              <Link to="/shop" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+              <Link to="/shop?category=Safety%20Products" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 Safety Products
               </Link>
             </nav>

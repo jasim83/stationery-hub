@@ -3,10 +3,6 @@ import { ArrowRight, Package, Truck, HeadphonesIcon, Award, Pencil, FileText, Mo
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { ProductCard } from "@/components/ProductCard";
-import { products } from "@/data/products";
-
-const featuredProducts = products.filter((p) => p.featured).slice(0, 8);
 
 const features = [
   {
@@ -83,8 +79,9 @@ const Index = () => {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="hero-gradient text-white relative overflow-hidden">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop')] bg-cover bg-center opacity-10" />
+        <section className="text-white relative overflow-hidden min-h-[70vh] flex items-center">
+          <div className="absolute inset-0 bg-[url('/images/hero-bg.jpg')] bg-cover bg-center" />
+          <div className="absolute inset-0 bg-black/50" />
           <div className="container relative py-24 md:py-32 lg:py-40">
             <div className="max-w-2xl space-y-6 animate-fade-in">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight">
@@ -130,34 +127,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Featured Products */}
-        <section className="py-20">
-          <div className="container">
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
-              <div>
-                <h2 className="text-3xl md:text-4xl font-display font-bold">Featured Products</h2>
-                <p className="text-muted-foreground mt-2">Top picks from our 8 product categories</p>
-              </div>
-              <Button variant="outline" asChild>
-                <Link to="/shop">
-                  View All Products
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {featuredProducts.map((product, index) => (
-                <div
-                  key={product.id}
-                  className="animate-fade-in"
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  <ProductCard product={product} />
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
 
         {/* Categories Preview */}
         <section className="py-20 bg-muted/50">

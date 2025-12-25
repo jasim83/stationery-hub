@@ -512,7 +512,7 @@ export const products: Product[] = [
     description: "Protective eyewear for industrial environments",
     price: 14.99,
     category: "Safety Products",
-    image: "/images/sg.jpeg",
+    image: "/images/saf.jpg",
   },
   {
     id: "83",
@@ -528,17 +528,12 @@ export const products: Product[] = [
     description: "Protective gloves for various industrial applications",
     price: 12.99,
     category: "Safety Products",
-    image: "/images/saf.jpg",
+    image: "/images/sg.jpeg",
   },
   {
     id: "85",
-<<<<<<< HEAD
-    name: "Roadside Signboard",
-    description: "",
-=======
     name: "Road Sign Boards",
     description: "High-quality road sign boards for traffic management and safety",
->>>>>>> 41015e7b1e50c86ec6bd7edf56a9271305b24ac9
     price: 99.99,
     category: "Safety Products",
     image: "/images/roadsignboards.jpg",

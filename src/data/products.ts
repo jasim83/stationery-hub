@@ -524,8 +524,8 @@ export const products: Product[] = [
   },
   {
     id: "84",
-    name: "Safety Glass",
-    description: "Protective safety glasses for various industrial applications",
+    name: "Safety Gloves",
+    description: "Protective gloves for various industrial applications",
     price: 12.99,
     category: "Safety Products",
     image: "/images/saf.jpg",

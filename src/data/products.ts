@@ -17,7 +17,8 @@ export const categories = [
   "Rubber Stamps",
   "Cleaning Items",
   "Hardwares",
-  "Safety Products",
+  "Safety Products"
+  "office products",
 ];
 
 export const products: Product[] = [

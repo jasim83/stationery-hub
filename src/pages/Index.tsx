@@ -75,6 +75,11 @@ const productCategories = [
     icon: HardHat,
     image: "/images/sh2.jpg",
     description: "Safety gear and protective equipment",
+  },{
+    name: "office Products",
+    icon: HardHat,
+    image: "/images/as.jpg",
+    description: "Safety gear and protective equipment",
   },
 ];
 

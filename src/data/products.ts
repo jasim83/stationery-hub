@@ -644,5 +644,14 @@ export const products: Product[] = [
     price: 79.99,
     category: "Printer Parts & Consumables",
     image: "/images/lasertonercat.jpg",
+  },// Category: office products 
+  {
+    id: "99",
+    name: "acrylic stand",
+    description: "v shaped cardstand , l shaped cardstand with different thickness also available ",
+    price: ,
+    category: "office Products",
+    image: "/images/as.jpg",
+    featured: true,
   },
 ];

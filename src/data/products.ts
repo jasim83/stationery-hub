@@ -156,7 +156,7 @@ export const products: Product[] = [
     featured: true,
 },
 {
-    id: "21",
+    id: "7",
     name: "Binding cover",
     description: "different colour binding sheets",
     price: 22.99,
@@ -167,7 +167,7 @@ export const products: Product[] = [
 
   // Category: Computer & Binding products
   {
-    id: "7",
+    id: "20",
     name: "Binding Machines",
     description: "Professional binding machines for document presentation",
     price: 199.99,

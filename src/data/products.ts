@@ -679,6 +679,14 @@ export const products: Product[] = [
     category: "Office Products",
     image: "/images/as.jpg",
     featured: true,
+  },{
+    id: "100",
+    name: "Tele pointer laser pen",
+    description: "Normal Tele pointer & laser Pen For presentations ",
+    price: 9.99,
+    category: "Office Products",
+    image: "/images/lsa.jpg",
+    featured: true,
   },
   /*
   // TEMPLATE — copy this block to add a new product:

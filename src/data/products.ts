@@ -12,7 +12,7 @@ export const categories = [
   "All",
   "Stationery",
   "Papers",
-  "Computer& Binding products",
+  "Computer & Binding products",
   "Printer Parts & Consumables",
   "Rubber Stamps",
   "Cleaning Items",
@@ -148,13 +148,13 @@ export const products: Product[] = [
     image: "/images/thermpap.jpg",
   },
 
-  // Category: Computer Accessories
+  // Category: Computer & Binding products
   {
     id: "20",
     name: "Binding Machines",
     description: "Professional binding machines for document presentation",
     price: 199.99,
-    category: "Computer Accessories",
+    category: "Computer & Binding products",
     image: "/images/bindingmac.jpg",
     featured: true,
   },
@@ -259,7 +259,7 @@ export const products: Product[] = [
     name: "CD-R Plus, CD-RW Plus",
     description: "Recordable CD-R discs for data storage",
     price: 12.99,
-    category: "Computer Accessories",
+    category: "Computer & Binding products",
     image: "/images/cd.JPG",
   },
   {
@@ -267,7 +267,7 @@ export const products: Product[] = [
     name: "Paper Shredder Machine",
     description: "Keeping your information secure and your office tidy",
     price: 149.99,
-    category: "Computer Accessories",
+    category: "Computer & Binding products",
     image: "/images/papcut.jpg",
   },
   {
@@ -275,7 +275,7 @@ export const products: Product[] = [
     name: "Scanners",
     description: "High-resolution document scanners for digitization",
     price: 299.99,
-    category: "Computer Accessories",
+    category: "Computer & Binding products",
     image: "/images/scan.jpg",
     featured: true,
   },
@@ -284,7 +284,7 @@ export const products: Product[] = [
     name: "Pen Drives",
     description: "USB pen drives in various storage capacities",
     price: 15.99,
-    category: "Computer Accessories",
+    category: "Computer & Binding products",
     image: "/images/pen.png",
   },
   {
@@ -292,7 +292,7 @@ export const products: Product[] = [
     name: "External Hard Disk",
     description: "Portable external hard disks for data backup",
     price: 89.99,
-    category: "Computer Accessories",
+    category: "Computer & Binding products",
     image: "/images/eh.jpg",
   },
   {
@@ -300,7 +300,7 @@ export const products: Product[] = [
     name: " Wire Binding Machines",
     description: "Professional binding machines for document presentation",
     price: 199.99,
-    category: "Computer Accessories",
+    category: "Computer & Binding products",
     image: "/images/wr.jpg",
     featured: true,
   },

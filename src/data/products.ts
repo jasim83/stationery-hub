@@ -687,6 +687,14 @@ export const products: Product[] = [
     category: "Office Products",
     image: "/images/lsa.jpg",
     featured: true,
+  },{
+    id: "101",
+    name: "white board duster",
+    description: "dust free board duster",
+    price: 9.99,
+    category: "Office Products",
+    image: "/images/wbd.jpg",
+    featured: true,
   },
   /*
   // TEMPLATE — copy this block to add a new product:

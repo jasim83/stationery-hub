@@ -75,6 +75,24 @@ export const products: Product[] = [
     image: "/images/doublea4.jpg",
     featured: true,
   },
+  ,{
+    id: "6",
+    name: "Buffalo printed cards",
+    description: "",
+    price: 22.99,
+    category: "Papers",
+    image: "/images/bf.jpg",
+    featured: true,
+},
+{
+    id: "7",
+    name: "Binding cover",
+    description: "different colour binding sheets",
+    price: 22.99,
+    category: "Papers",
+    image: "/images/pbc.jpg",
+    featured: true,
+},
   {
     id: "11",
     name: "Double A Paper A3 Size",
@@ -146,6 +164,7 @@ export const products: Product[] = [
     price: 14.99,
     category: "Papers",
     image: "/images/thermpap.jpg",
+  },
 
   // Category: Computer & Binding products
   {

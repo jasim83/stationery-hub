@@ -167,7 +167,7 @@ export const products: Product[] = [
 
   // Category: Computer & Binding products
   {
-    id: "20",
+    id: "7",
     name: "Binding Machines",
     description: "Professional binding machines for document presentation",
     price: 199.99,

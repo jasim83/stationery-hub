@@ -295,6 +295,15 @@ export const products: Product[] = [
     category: "Computer Accessories",
     image: "/images/eh.jpg",
   },
+  {
+    id: "38",
+    name: " Wire Binding Machines",
+    description: "Professional binding machines for document presentation",
+    price: 199.99,
+    category: "Computer Accessories",
+    image: "/images/wr.jpg",
+    featured: true,
+  },
 
   // Category: Rubber Stamps
   {

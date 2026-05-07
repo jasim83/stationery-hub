@@ -66,14 +66,23 @@ export const products: Product[] = [
 
 
   // Category: Papers
+  {
+    id: "10",
+    name: "Double A Paper A4 Size",
+    description: "Double A brand A4 size paper - smooth and reliable",
+    price: 22.99,
+    category: "Papers",
+    image: "/images/doublea4.jpg",
+    featured: true,
+  },
   ,{
-    id: "6",
+    id: "20",
     name: "Buffalo printed cards",
     description: "",
     price: 22.99,
     category: "Papers",
     image: "/images/bf.jpg",
-    featured: true,
+  
 },
 {
     id: "7",
@@ -82,17 +91,8 @@ export const products: Product[] = [
     price: 22.99,
     category: "Papers",
     image: "/images/pbc.jpg",
-   
-},
-  {
-    id: "10",
-    name: "Double A Paper A4 Size",
-    description: "Double A brand A4 size paper - smooth and reliable",
-    price: 22.99,
-    category: "Papers",
-    image: "/images/doublea4.jpg",
     
-  },
+},
   {
     id: "11",
     name: "Double A Paper A3 Size",

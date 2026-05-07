@@ -660,7 +660,7 @@ export const products: Product[] = [
     description: "V-shaped and L-shaped card stands available in different thicknesses",
     price: 9.99,
     category: "Office Products",
-    image: "/images/as.jpg",
+    image: "/images/as.jpeg",
     featured: true,
   },
   /*

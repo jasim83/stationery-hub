@@ -17,8 +17,8 @@ export const categories = [
   "Rubber Stamps",
   "Cleaning Items",
   "Hardwares",
-  "Safety Products"
-  "office products",
+  "Safety Products",
+  "Office Products",
 ];
 
 export const products: Product[] = [
@@ -645,14 +645,34 @@ export const products: Product[] = [
     price: 79.99,
     category: "Printer Parts & Consumables",
     image: "/images/lasertonercat.jpg",
-  },// Category: office products 
+  },
+
+  // ============================================================
+  // Category: Office Products
+  // ============================================================
+  // 👉 To add a new product, copy one block below and paste it here.
+  // 👉 To add a NEW category, add its name to the `categories` array
+  //    at the top of this file, then add products with that category.
+  // ============================================================
   {
     id: "99",
-    name: "acrylic stand",
-    description: "v shaped cardstand , l shaped cardstand with different thickness also available ",
-    price: ,
-    category: "office Products",
+    name: "Acrylic Stand",
+    description: "V-shaped and L-shaped card stands available in different thicknesses",
+    price: 9.99,
+    category: "Office Products",
     image: "/images/as.jpg",
     featured: true,
   },
+  /*
+  // TEMPLATE — copy this block to add a new product:
+  {
+    id: "100",                          // unique id
+    name: "Product Name",
+    description: "Short description",
+    price: 0.00,
+    category: "Office Products",        // must match a name in `categories`
+    image: "/images/your-image.jpg",    // place file in public/images/
+    featured: false,                    // true = show on homepage
+  },
+  */
 ];

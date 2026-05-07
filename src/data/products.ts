@@ -62,7 +62,15 @@ export const products: Product[] = [
     price: 12.99,
     category: "Stationery",
     image: "/images/en.jpg",
+  },{
+    id: "9",
+    name: "Calculater",
+    description: "dolphin brand normal & scientific calculater",
+    price: 12.99,
+    category: "Stationery",
+    image: "/images/cal.jpeg",
   },
+  
 
 
   // Category: Papers

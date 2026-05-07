@@ -146,7 +146,24 @@ export const products: Product[] = [
     price: 14.99,
     category: "Papers",
     image: "/images/thermpap.jpg",
-  },
+  },{
+    id: "20",
+    name: "Buffalo printed cards",
+    description: "",
+    price: 22.99,
+    category: "Papers",
+    image: "/images/bf.jpg",
+    featured: true,
+},
+{
+    id: "21",
+    name: "Binding cover",
+    description: "different colour binding sheets",
+    price: 22.99,
+    category: "Papers",
+    image: "/images/pbc.jpg",
+    featured: true,
+},
 
   // Category: Computer & Binding products
   {

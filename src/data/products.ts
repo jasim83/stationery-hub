@@ -90,7 +90,7 @@ export const products: Product[] = [
     description: "different colour binding sheets",
     price: 22.99,
     category: "Papers",
-    image: "/images/pbc.jpg",
+    image: "/images/pbd1.jpg",
     featured: true,
 },
 {

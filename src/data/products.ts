@@ -56,7 +56,7 @@ export const products: Product[] = [
     category: "Stationery",
     image: "/images/foilpap.jpg",
   },{
-    id: "100",
+    id: "5",
     name: "Air bubble envelope",
     description: "envelope with different size",
     price: 12.99,

@@ -84,15 +84,6 @@ export const products: Product[] = [
     image: "/images/bf.jpg",
     featured: true,
 },
-,{
-    id: "20",
-    name: "Buffalo printed cards",
-    description: "",
-    price: 22.99,
-    category: "Papers",
-    image: "/images/bf.jpg",
-    featured: true,
-},
 {
     id: "7",
     name: "Binding cover",
@@ -100,14 +91,6 @@ export const products: Product[] = [
     price: 22.99,
     category: "Papers",
     image: "/images/pbc.jpg",
-    featured: true,
-},,{
-    id: "20",
-    name: "Buffalo printed cards",
-    description: "",
-    price: 22.99,
-    category: "Papers",
-    image: "/images/bf.jpg",
     featured: true,
 },
 {

@@ -12,7 +12,7 @@ export const categories = [
   "All",
   "Stationery",
   "Papers",
-  "Computer Accessories",
+  "Computer& Binding products",
   "Printer Parts & Consumables",
   "Rubber Stamps",
   "Cleaning Items",

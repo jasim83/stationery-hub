@@ -68,7 +68,7 @@ export const products: Product[] = [
     description: "dolphin brand normal & scientific calculater",
     price: 12.99,
     category: "Stationery",
-    image: "/images/dol.jpeg",
+    image: "/images/dol.png",
   },
   
 

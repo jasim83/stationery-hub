@@ -180,7 +180,7 @@ export const products: Product[] = [
     description: "",
     price: 14.99,
     category: "Papers",
-    image: "/images/cer.jpg",
+    image: "/images/cer.png",
   },
 
   // Category: Computer & Binding products

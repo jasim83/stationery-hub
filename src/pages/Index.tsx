@@ -41,7 +41,7 @@ const productCategories = [
     description: "Premium quality papers for all needs",
   },
   {
-    name: "Computer Accessories",
+    name: "Computer & Binding products",
     icon: Monitor,
     image: "/images/scan.jpg",
     description: "Printers, cartridges & office equipment",

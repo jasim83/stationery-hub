@@ -52,8 +52,8 @@ export function Footer() {
               <Link to="/shop?category=Papers" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 Papers
               </Link>
-              <Link to="/shop?category=Computer%20Accessories" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
-                Computer Accessories
+              <Link to="/shop?category=Computer%20%26%20Binding%20products" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
+                Computer & Binding products
               </Link>
               <Link to="/shop?category=Printer%20Parts%20%26%20Consumables" className="text-sm text-secondary-foreground/70 hover:text-primary transition-colors">
                 Printer Parts & Consumables

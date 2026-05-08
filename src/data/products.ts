@@ -69,6 +69,20 @@ export const products: Product[] = [
     price: 12.99,
     category: "Stationery",
     image: "/images/dol.png",
+  },{
+    id: "105",
+    name: "Correction pen",
+    description: "",
+    price: 12.99,
+    category: "Stationery",
+    image: "/images/cp.jpeg",
+  },{
+    id: "106",
+    name: "Correction tape",
+    description: "",
+    price: 12.99,
+    category: "Stationery",
+    image: "/images/ct.jpeg",
   },
   
 

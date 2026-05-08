@@ -175,12 +175,12 @@ export const products: Product[] = [
     image: "/images/plotterpaper.jpg",
   },
   {
-    id: "19",
-    name: "Thermal Papers",
-    description: "Thermal paper rolls for receipt printers and POS systems",
+    id: "104",
+    name: "Gold hotstamping certificates",
+    description: "",
     price: 14.99,
     category: "Papers",
-    image: "/images/thermpap.jpg",
+    image: "/images/cer.jpg",
   },
 
   // Category: Computer & Binding products

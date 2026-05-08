@@ -731,12 +731,12 @@ export const products: Product[] = [
     image: "/images/wbd.jpg",
     featured: true,
   },{
-    id: "102",
-    name: "Flip chart pad with stand ",
-    description:"",
+    id: "103",
+    name: "board",
+    description:"glassboard,plasticboard,woodenboard",
     price: 9.99,
     category: "Office Products",
-    image: "/images/fil.jpg",
+    image: "/images/wb.jpg",
     featured: true,
   },
   /*

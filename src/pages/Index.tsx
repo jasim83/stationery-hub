@@ -49,13 +49,13 @@ const productCategories = [
   {
     name: "Printer Parts & Consumables",
     icon: Printer,
-    image: "/images/tonercat.png",
+    image: "/images/tonercat.jpg",
     description: "Toner, ink cartridges & printer parts",
   },
   {
     name: "Rubber Stamps",
     icon: Stamp,
-    image: "/images/sis.png",
+    image: "/images/sis.jpg",
     description: "Custom stamps and sign boards",
   },
   {
@@ -161,7 +161,11 @@ const Index = () => {
                       src={category.image} 
                       alt={category.name}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      loading="lazy"
+                      loading={index < 4 ? "eager" : "lazy"}
+                      fetchPriority={index < 4 ? "high" : "auto"}
+                      decoding="async"
+                      width="600"
+                      height="450"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                   </div>

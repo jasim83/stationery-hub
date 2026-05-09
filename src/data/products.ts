@@ -885,6 +885,14 @@ export const products: Product[] = [
     category: "Office Products",
     image: "/images/abs.jpg",
     featured: true,
+  },{
+    id: "125",
+    name: "transparent data envelope",
+    description: "",
+    price: 9.99,
+    category: "Office Products",
+    image: "/images/tde.jpg",
+    featured: true,
   },
 
   /*

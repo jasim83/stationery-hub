@@ -105,7 +105,7 @@ const Shop = () => {
                   className="animate-fade-in"
                   style={{ animationDelay: `${index * 50}ms` }}
                 >
-                  <ProductCard product={product} />
+                  <ProductCard product={product} priority={index < 8} />
                 </div>
               ))}
             </div>

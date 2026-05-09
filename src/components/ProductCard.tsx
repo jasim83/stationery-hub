@@ -5,9 +5,10 @@ import { cn } from "@/lib/utils";
 
 interface ProductCardProps {
   product: Product;
+  priority?: boolean;
 }
 
-export function ProductCard({ product }: ProductCardProps) {
+export function ProductCard({ product, priority = false }: ProductCardProps) {
   const [loaded, setLoaded] = useState(false);
 
   return (
@@ -19,8 +20,11 @@ export function ProductCard({ product }: ProductCardProps) {
         <img
           src={product.image}
           alt={product.name}
-          loading="lazy"
+          loading={priority ? "eager" : "lazy"}
+          fetchPriority={priority ? "high" : "auto"}
           decoding="async"
+          width="600"
+          height="600"
           onLoad={() => setLoaded(true)}
           onError={() => setLoaded(true)}
           className={cn(

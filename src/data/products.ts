@@ -877,8 +877,16 @@ export const products: Product[] = [
     category: "Office Products",
     image: "/images/pbf.jpg",
     featured: true,
+  },{
+    id: "124",
+    name: "abs magazine filebox",
+    description: "",
+    price: 9.99,
+    category: "Office Products",
+    image: "/images/abs.jpg",
+    featured: true,
   },
-  
+
   /*
   // TEMPLATE — copy this block to add a new product:
   {

@@ -77,13 +77,23 @@ export const products: Product[] = [
     category: "Stationery",
     image: "/images/cp.jpeg",
   },{
-    id: "106",
-    name: "Correction tape",
+    id: "108",
+    name: " scissors",
     description: "",
-    price: 12.99,
+    price: 199.99,
     category: "Stationery",
-    image: "/images/cts.jpg",
+    image: "/images/s1.jpg",
+    featured: true,
+  },{
+    id: "109",
+    name: " Handycutting blade",
+    description: "",
+    price: 199.99,
+    category: "Stationery",
+    image: "/images/s2.jpg",
+    featured: true,
   },
+
   
 
 

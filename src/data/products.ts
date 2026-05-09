@@ -866,9 +866,19 @@ export const products: Product[] = [
     description: "",
     price: 9.99,
     category: "Office Products",
-    image: "/images/archfile.jpeg",
+    image: "/images/archjpg",
     featured: true,
   },
+  {
+    id: "123",
+    name: "plastic box file",
+    description: "",
+    price: 9.99,
+    category: "Office Products",
+    image: "/images/pbf.jpg",
+    featured: true,
+  },
+  
   /*
   // TEMPLATE — copy this block to add a new product:
   {

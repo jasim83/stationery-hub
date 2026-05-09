@@ -788,6 +788,14 @@ export const products: Product[] = [
     category: "Office Products",
     image: "/images/wb.jpg",
     featured: true,
+  },{
+    id: "104",
+    name: "Flip Chart",
+    description: "Flip chart stand & flip chart paper pads for presentations and brainstorming",
+    price: 9.99,
+    category: "Office Products",
+    image: "/images/flipchart.jpg",
+    featured: true,
   },
   /*
   // TEMPLATE — copy this block to add a new product:

@@ -860,6 +860,14 @@ export const products: Product[] = [
     category: "Office Products",
     image: "/images/fil.jpg",
     featured: true,
+  },{
+    id: "122",
+    name: "box arch file",
+    description: "",
+    price: 9.99,
+    category: "Office Products",
+    image: "/images/archfile.jpeg",
+    featured: true,
   },
   /*
   // TEMPLATE — copy this block to add a new product:

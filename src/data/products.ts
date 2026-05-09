@@ -794,7 +794,7 @@ export const products: Product[] = [
     description: "Flip chart stand & flip chart paper pads for presentations and brainstorming",
     price: 9.99,
     category: "Office Products",
-    image: "/images/flipchart.jpg",
+    image: "/images/fl.jpg",
     featured: true,
   },
   /*

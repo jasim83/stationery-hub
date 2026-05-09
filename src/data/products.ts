@@ -68,7 +68,7 @@ export const products: Product[] = [
     description: "dolphin brand normal & scientific calculater",
     price: 12.99,
     category: "Stationery",
-    image: "/images/dol.png",
+    image: "/images/dol.jpg",
   },{
     id: "105",
     name: "Correction pen",
@@ -139,7 +139,7 @@ export const products: Product[] = [
     description: "different colour 2 sheet cards",
     price: 22.99,
     category: "Papers",
-    image: "/images/twosheet.png",
+    image: "/images/twosheet.jpg",
     featured: true,
 },
   {
@@ -180,7 +180,7 @@ export const products: Product[] = [
     description: "Premium King brand A4 paper with excellent print quality",
     price: 19.99,
     category: "Papers",
-    image: "/images/knew.png",
+    image: "/images/knew.jpg",
   },
   {
     id: "16",
@@ -212,7 +212,7 @@ export const products: Product[] = [
     description: "",
     price: 14.99,
     category: "Papers",
-    image: "/images/cer.png",
+    image: "/images/cer.jpg",
   },
 
   // Category: Computer & Binding products
@@ -239,7 +239,7 @@ export const products: Product[] = [
     description: "Original toner cartridges for all model printers",
     price: 89.99,
     category: "Printer Parts & Consumables",
-    image: "/images/tonercat.png",
+    image: "/images/tonercat.jpg",
   },
   {
     id: "23",
@@ -247,7 +247,7 @@ export const products: Product[] = [
     description: "Ribbon cartridges for dot matrix and impact printers",
     price: 15.99,
     category: "Printer Parts & Consumables",
-    image: "/images/ribboncat.png",
+    image: "/images/ribboncat.jpg",
   },
   {
     id: "24",
@@ -263,7 +263,7 @@ export const products: Product[] = [
     description: "Quality ink cartridges for inkjet printers",
     price: 25.99,
     category: "Printer Parts & Consumables",
-    image: "/images/inkcat2.png",
+    image: "/images/inkcat2.jpg",
   },
   {
     id: "26",
@@ -352,7 +352,7 @@ export const products: Product[] = [
     description: "USB pen drives in various storage capacities",
     price: 15.99,
     category: "Computer & Binding products",
-    image: "/images/pen.png",
+    image: "/images/pen.jpg",
   },
   {
     id: "37",
@@ -413,7 +413,7 @@ export const products: Product[] = [
     description: "Custom rubber stamps for business and personal use",
     price: 12.99,
     category: "Rubber Stamps",
-    image: "/images/ors.PNG",
+    image: "/images/ors.jpg",
     featured: true,
   },
   {
@@ -422,7 +422,7 @@ export const products: Product[] = [
     description: "Convenient self-inking stamps with built-in ink pad",
     price: 24.99,
     category: "Rubber Stamps",
-    image: "/images/sis.png",
+    image: "/images/sis.jpg",
   },
   {
     id: "44",
@@ -681,7 +681,7 @@ export const products: Product[] = [
     description: "High-quality toner cartridges for laser printers of all brands",
     price: 89.99,
     category: "Printer Parts & Consumables",
-    image: "/images/tonercat.png",
+    image: "/images/tonercat.jpg",
     featured: true,
   },
   {
@@ -690,7 +690,7 @@ export const products: Product[] = [
     description: "Original and compatible ink cartridges for inkjet printers",
     price: 29.99,
     category: "Printer Parts & Consumables",
-    image: "/images/inkcat2.png",
+    image: "/images/inkcat2.jpg",
   },
   {
     id: "92",
@@ -722,7 +722,7 @@ export const products: Product[] = [
     description: "Ribbon cartridges for dot matrix and impact printers",
     price: 15.99,
     category: "Printer Parts & Consumables",
-    image: "/images/ribboncat.png",
+    image: "/images/ribboncat.jpg",
   },
   {
     id: "96",

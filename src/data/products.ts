@@ -883,7 +883,7 @@ export const products: Product[] = [
     description: "",
     price: 9.99,
     category: "Office Products",
-    image: "/images/abs.jpg",
+    image: "/images/a1.jpg",
     featured: true,
   },
 

@@ -92,6 +92,14 @@ export const products: Product[] = [
     category: "Stationery",
     image: "/images/s2.jpg",
     featured: true,
+  },{
+    id: "110",
+    name: " Eraser",
+    description: "Eraser with different models",
+    price: 199.99,
+    category: "Stationery",
+    image: "/images/s3.jpg",
+    featured: true,
   },
 
   

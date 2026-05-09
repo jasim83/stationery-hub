@@ -68,7 +68,7 @@ export const products: Product[] = [
     description: "dolphin brand normal & scientific calculater",
     price: 12.99,
     category: "Stationery",
-    image: "/images/dol.jpg",
+    image: "/images/dol.png",
   },{
     id: "105",
     name: "Correction pen",
@@ -139,7 +139,7 @@ export const products: Product[] = [
     description: "different colour 2 sheet cards",
     price: 22.99,
     category: "Papers",
-    image: "/images/twosheet.jpg",
+    image: "/images/twosheet.png",
     featured: true,
 },
   {
@@ -180,7 +180,7 @@ export const products: Product[] = [
     description: "Premium King brand A4 paper with excellent print quality",
     price: 19.99,
     category: "Papers",
-    image: "/images/knew.jpg",
+    image: "/images/knew.png",
   },
   {
     id: "16",
@@ -212,7 +212,7 @@ export const products: Product[] = [
     description: "",
     price: 14.99,
     category: "Papers",
-    image: "/images/cer.jpg",
+    image: "/images/cer.png",
   },
 
   // Category: Computer & Binding products
@@ -239,7 +239,7 @@ export const products: Product[] = [
     description: "Original toner cartridges for all model printers",
     price: 89.99,
     category: "Printer Parts & Consumables",
-    image: "/images/tonercat.jpg",
+    image: "/images/tonercat.png",
   },
   {
     id: "23",
@@ -247,7 +247,7 @@ export const products: Product[] = [
     description: "Ribbon cartridges for dot matrix and impact printers",
     price: 15.99,
     category: "Printer Parts & Consumables",
-    image: "/images/ribboncat.jpg",
+    image: "/images/ribboncat.png",
   },
   {
     id: "24",
@@ -263,7 +263,7 @@ export const products: Product[] = [
     description: "Quality ink cartridges for inkjet printers",
     price: 25.99,
     category: "Printer Parts & Consumables",
-    image: "/images/inkcat2.jpg",
+    image: "/images/inkcat2.png",
   },
   {
     id: "26",
@@ -352,7 +352,7 @@ export const products: Product[] = [
     description: "USB pen drives in various storage capacities",
     price: 15.99,
     category: "Computer & Binding products",
-    image: "/images/pen.jpg",
+    image: "/images/pen.png",
   },
   {
     id: "37",
@@ -413,7 +413,7 @@ export const products: Product[] = [
     description: "Custom rubber stamps for business and personal use",
     price: 12.99,
     category: "Rubber Stamps",
-    image: "/images/ors.jpg",
+    image: "/images/ors.PNG",
     featured: true,
   },
   {
@@ -422,7 +422,7 @@ export const products: Product[] = [
     description: "Convenient self-inking stamps with built-in ink pad",
     price: 24.99,
     category: "Rubber Stamps",
-    image: "/images/sis.jpg",
+    image: "/images/sis.png",
   },
   {
     id: "44",
@@ -456,7 +456,7 @@ export const products: Product[] = [
     description: "Premium microfiber cloth for cleaning",
     price: 7.99,
     category: "Cleaning Items",
-    image: "/images/ct.jpg",
+    image: "/images/clt.jpg",
     featured: true,
   },
   {
@@ -546,8 +546,57 @@ export const products: Product[] = [
     price: 9.99,
     category: "Cleaning Items",
     image: "/images/garbagebag.jpg",
+  },{
+    id: "111",
+    name: "DustPan",
+    description: "",
+    price: 9.99,
+    category: "Cleaning Items",
+    image: "/images/dp.jpg",
+  },{
+    id: "112",
+    name: "duster",
+    description: "",
+    price: 9.99,
+    category: "Cleaning Items",
+    image: "/images/sd.jpg",
+  },{
+    id: "115",
+    name: "toilet brush",
+    description: "",
+    price: 9.99,
+    category: "Cleaning Items",
+    image: "/images/tb.jpg",
+  },{
+    id: "116",
+    name: "toilet bowl cleaning liquid",
+    description: "",
+    price: 9.99,
+    category: "Cleaning Items",
+    image: "/images/tbcl.jpg",
+  },{
+    id: "117",
+    name: "toilet refreshner",
+    description: "",
+    price: 9.99,
+    category: "Cleaning Items",
+    image: "/images/tf1.jpg",
   },
-
+{
+    id: "118",
+    name: "toilet urinal cubes",
+    description: "",
+    price: 9.99,
+    category: "Cleaning Items",
+    image: "/images/tuc1.jpg",
+  },{
+    id: "119",
+    name: "flange plugger",
+    description: "",
+    price: 9.99,
+    category: "Cleaning Items",
+    image: "/images/tps1.jpg",
+  },
   // Category: Hardwares
   {
     id: "70",
@@ -583,12 +632,12 @@ export const products: Product[] = [
     image: "/images/paint.jpg",
   },
   {
-    id: "74",
-    name: "Woods",
+    id: "114",
+    name: "Leaf rake",
     description: "Quality wood materials for construction and crafts",
     price: 79.99,
     category: "Hardwares",
-    image: "/images/wd.jpg",
+    image: "/images/pr.jpg",
   },
 
   // Category: Safety Products
@@ -663,15 +712,22 @@ export const products: Product[] = [
     description: "LED signal lights for traffic control",
     price: 24.99,
     category: "Safety Products",
-    image: "/images/baton-signal-lights.jpg",
+    image: "/images/bt.jpg",
   },
   {
-    id: "89",
-    name: "Traffic Cones",
-    description: "High-visibility traffic cones for road safety",
+    id: "113",
+    name: "safety lights",
+    description: "High-visibility  lights for safety",
     price: 15.99,
     category: "Safety Products",
-    image: "/images/tc.jpg",
+    image: "/images/fl.jpg",
+  },{
+    id: "120",
+    name: "safety tools",
+    description: "",
+    price: 15.99,
+    category: "Safety Products",
+    image: "/images/wts.jpg",
   },
 
   // Category: Printer Parts & Consumables
@@ -681,7 +737,7 @@ export const products: Product[] = [
     description: "High-quality toner cartridges for laser printers of all brands",
     price: 89.99,
     category: "Printer Parts & Consumables",
-    image: "/images/tonercat.jpg",
+    image: "/images/tonercat.png",
     featured: true,
   },
   {
@@ -690,7 +746,7 @@ export const products: Product[] = [
     description: "Original and compatible ink cartridges for inkjet printers",
     price: 29.99,
     category: "Printer Parts & Consumables",
-    image: "/images/inkcat2.jpg",
+    image: "/images/inkcat2.png",
   },
   {
     id: "92",
@@ -722,7 +778,7 @@ export const products: Product[] = [
     description: "Ribbon cartridges for dot matrix and impact printers",
     price: 15.99,
     category: "Printer Parts & Consumables",
-    image: "/images/ribboncat.jpg",
+    image: "/images/ribboncat.png",
   },
   {
     id: "96",
@@ -794,7 +850,7 @@ export const products: Product[] = [
     description: "Flip chart stand & flip chart paper pads for presentations and brainstorming",
     price: 9.99,
     category: "Office Products",
-    image: "/images/fl.jpg",
+    image: "/images/fil.jpg",
     featured: true,
   },
   /*

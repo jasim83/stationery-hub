@@ -343,8 +343,7 @@ export const products: Product[] = [
     price: 89.99,
     category: "Computer & Binding products",
     image: "/images/eh.jpg",
-  },
-  {
+  },{
     id: "38",
     name: " Wire Binding Machines",
     description: "Professional binding machines for document presentation",
@@ -352,7 +351,26 @@ export const products: Product[] = [
     category: "Computer & Binding products",
     image: "/images/wr.jpg",
     featured: true,
+  },{
+    id: "106",
+    name: " Paper Cutter Machiene",
+    description: "Professional cutting machines for precision cut ",
+    price: 199.99,
+    category: "Computer & Binding products",
+    image: "/images/p1.jpg",
+    featured: true,
   },
+  {
+    id: "107",
+    name: " Wex rotary cut machiene",
+    description: "",
+    price: 199.99,
+    category: "Computer & Binding products",
+    image: "/images/p2.jpg",
+    featured: true,
+  },
+
+
 
   // Category: Rubber Stamps
   {

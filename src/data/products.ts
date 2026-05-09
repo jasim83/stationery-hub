@@ -100,6 +100,14 @@ export const products: Product[] = [
     category: "Stationery",
     image: "/images/s3.jpg",
     featured: true,
+  },{
+    id: "121",
+    name: "correction tape",
+    description: "",
+    price: 199.99,
+    category: "Stationery",
+    image: "/images/cts.jpg",
+    featured: true,
   },
 
   

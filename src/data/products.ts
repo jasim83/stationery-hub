@@ -82,7 +82,7 @@ export const products: Product[] = [
     description: "",
     price: 12.99,
     category: "Stationery",
-    image: "/images/cs.jpeg",
+    image: "/images/cts.jpg",
   },
   
 

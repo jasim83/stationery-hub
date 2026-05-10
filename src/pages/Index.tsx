@@ -168,6 +168,27 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Features Section */}
+        <section className="py-16 bg-muted/50">
+          <div className="container">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {features.map((feature, index) => (
+                <div
+                  key={feature.title}
+                  className="flex flex-col items-center text-center p-6 animate-fade-in"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                    <feature.icon className="h-7 w-7 text-primary" />
+                  </div>
+                  <h3 className="font-display font-semibold text-lg mb-2">{feature.title}</h3>
+                  <p className="text-muted-foreground">{feature.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="py-20 bg-secondary text-secondary-foreground">
           <div className="container text-center">

@@ -117,43 +117,21 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Features Section */}
-        <section className="py-16 bg-muted/50">
+        {/* Categories Preview - Moved up for easy access */}
+        <section className="py-16 md:py-20 bg-background">
           <div className="container">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {features.map((feature, index) => (
-                <div
-                  key={feature.title}
-                  className="flex flex-col items-center text-center p-6 animate-fade-in"
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                    <feature.icon className="h-7 w-7 text-primary" />
-                  </div>
-                  <h3 className="font-display font-semibold text-lg mb-2">{feature.title}</h3>
-                  <p className="text-muted-foreground">{feature.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-
-        {/* Categories Preview */}
-        <section className="py-20 bg-muted/50">
-          <div className="container">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Our Product Categories</h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
+            <div className="text-center mb-10 md:mb-12 max-w-3xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Shop by Category</h2>
+              <p className="text-muted-foreground">
                 Browse our wide selection of office supplies, industrial products, and safety equipment
               </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 max-w-6xl mx-auto justify-items-center">
               {productCategories.map((category, index) => (
                 <Link
                   key={category.name}
                   to={`/shop?category=${encodeURIComponent(category.name)}`}
-                  className="group relative bg-background rounded-xl overflow-hidden border border-border hover:shadow-xl transition-all duration-300 animate-fade-in"
+                  className="group relative w-full bg-background rounded-xl overflow-hidden border border-border hover:shadow-xl transition-all duration-300 animate-fade-in"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
                   <div className="aspect-[4/3] overflow-hidden">
@@ -186,6 +164,27 @@ const Index = () => {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
+            </div>
+          </div>
+        </section>
+
+        {/* Features Section */}
+        <section className="py-16 bg-muted/50">
+          <div className="container">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {features.map((feature, index) => (
+                <div
+                  key={feature.title}
+                  className="flex flex-col items-center text-center p-6 animate-fade-in"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  <div className="h-14 w-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                    <feature.icon className="h-7 w-7 text-primary" />
+                  </div>
+                  <h3 className="font-display font-semibold text-lg mb-2">{feature.title}</h3>
+                  <p className="text-muted-foreground">{feature.description}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>

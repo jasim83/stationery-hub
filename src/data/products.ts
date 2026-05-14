@@ -129,7 +129,7 @@ export const products: Product[] = [
     description: "",
     price: 22.99,
     category: "Papers",
-    image: "/images/bf.jpg",
+    image: "/images/bfs.jpg",
     featured: true,
 },
 {
